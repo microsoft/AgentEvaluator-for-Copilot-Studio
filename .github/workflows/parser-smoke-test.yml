@@ -1,0 +1,42 @@
+name: parser-smoke-test
+
+# Runs the files-mode smoke test over the parser notebook on every relevant
+# change, plus the demo-scale synthetic dataset in sample-data/.
+
+on:
+  push:
+    paths:
+      - '2. Fabric/notebooks/**'
+      - 'sample-data/**'
+      - '.github/workflows/parser-smoke-test.yml'
+  pull_request:
+    paths:
+      - '2. Fabric/notebooks/**'
+      - 'sample-data/**'
+      - '.github/workflows/parser-smoke-test.yml'
+
+jobs:
+  smoke-test:
+    name: Parse fixture + demo transcripts, assert every output table populates
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install --quiet pandas pyspark
+
+      - name: Smoke test - bundled fixture
+        working-directory: '2. Fabric/notebooks/samples'
+        run: python smoketest_files_mode.py
+
+      - name: Smoke test - demo-scale sample data
+        working-directory: '2. Fabric/notebooks/samples'
+        run: python smoketest_files_mode.py ../../../sample-data/conversationtranscripts.csv
+
+      - name: Validate sample data populates every dashboard column
+        working-directory: sample-data
+        run: python validate_sample_data.py
