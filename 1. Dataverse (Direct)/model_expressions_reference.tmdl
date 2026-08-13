@@ -425,7 +425,7 @@ expression Parse_Turns =
 							knows = List.Select(acts, each fld(_, "valueType", "") = "KnowledgeTraceData"),
 							lookupIntent = (mid) =>
 									let hit = List.First(List.Select(intents, each fld(_, "replyToId", null) = mid), null)
-									in if hit = null then [it = null, ii = null, isc = null] else let v = fld(hit, "value", []) in [it = fld(v, "intentTitle", null), ii = fld(v, "intentId", null), isc = fld(fld(v, "intentScore", []), "score", null)],
+									in if hit = null then [it = null, ii = null, isc = null] else let v = fld(hit, "value", []) in [it = fld(v, "intentTitle", null), ii = fld(v, "intentId", null), isc = (let _s = fld(v, "intentScore", null) in if _s is record then fld(_s, "score", null) else _s)],
 							lookupKnow = (mid) =>
 									let hit = List.First(List.Select(knows, each fld(_, "replyToId", null) = mid), null)
 									in if hit = null then [ks = null, ka = null, src = null] else let v = fld(hit, "value", []) in [ks = (fld(v, "isKnowledgeSearched", false) = true), ka = (fld(v, "completionState", "") = "Answered"), src = Text.Combine(List.Transform(fld(v, "citedKnowledgeSources", {}), Text.From), "|")],

@@ -1,0 +1,9 @@
+AgentId,AgentName,Publisher,AgentType,Environment,CreatedDate,LastActivityDate,Status,Capabilities,Owner
+c07edc61-e688-41d7-8de0-f7ad021a7079,HR Leave Assistant,Contoso Demo Ltd,Copilot Studio,Contoso Demo (default),2025-05-10,2026-08-13,Active,Knowledge|Actions|GenerativeAnswers,sofia.amara@contoso-demo.local
+7ec611c5-e506-474d-84f1-f96831af09d6,IT Support Agent,Contoso Demo Ltd,Copilot Studio,Contoso Demo (default),2026-01-27,2026-08-13,Active,Knowledge|Actions|GenerativeAnswers,riley.mercer@contoso-demo.local
+bffdbbc4-455c-44b0-8a66-0995dbda534c,Payroll Helper,Contoso Demo Ltd,Copilot Studio,Contoso Demo (default),2025-10-13,2026-08-13,Active,Knowledge|Actions|GenerativeAnswers,harper.lockhart@contoso-demo.local
+fdae9607-d6d2-4a18-b408-f922a1449c37,Employee Self-Service,Contoso Demo Ltd,Copilot Studio,Contoso Demo (default),2026-03-23,2026-08-13,Active,Knowledge|Actions|GenerativeAnswers,taylor.hollis@contoso-demo.local
+b5787f56-c7d0-4075-a94b-1315b5ea5bde,Procurement Advisor,Contoso Demo Ltd,Copilot Studio,Contoso Demo (default),2025-12-18,2026-08-13,Active,Knowledge|Actions|GenerativeAnswers,luca.thorne@contoso-demo.local
+d9aae339-0d3f-4711-bfa3-9a41e3bc00f3,Onboarding Guide,Contoso Demo Ltd,Copilot Studio,Contoso Demo (default),2025-07-21,2026-08-13,Active,Knowledge|Actions|GenerativeAnswers,nadia.grady@contoso-demo.local
+1013b56c-7660-4f34-9ae9-61abec45e0fd,Travel & Expense Agent,Contoso Demo Ltd,Copilot Studio,Contoso Demo (default),2025-11-05,2026-08-13,Active,Knowledge|Actions|GenerativeAnswers,reese.fontaine@contoso-demo.local
+f395f09f-6c5c-441a-8e4c-19db0316401f,Facilities Bot,Contoso Demo Ltd,Copilot Studio,Contoso Demo (default),2026-01-31,2026-08-13,Active,Knowledge|Actions|GenerativeAnswers,skyler.keane@contoso-demo.local

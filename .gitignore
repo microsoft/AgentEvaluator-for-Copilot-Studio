@@ -2,6 +2,8 @@
 *.csv
 !sample-data/*.csv
 !docs/*.csv
+# Synthetic parser fixture — safe to commit (no real tenant data)
+!2. Fabric/notebooks/samples/copilot_transcripts/*.csv
 
 # Power BI workspace artefacts
 *.pbip.local
