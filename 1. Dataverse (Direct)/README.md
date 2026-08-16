@@ -14,11 +14,11 @@ Dataverse conversationtranscripts ─(native connector)─┐
                                                        ▼
    Agent Sessions · Turns · Errors · Sub-Agent Calls · Performance · Catalogue
                                                        ▼
-   + org / Agents 365 ─(direct CSV file paths)────────────────► dashboard
+   + org data ─(direct CSV file path)─────────────────────────► dashboard
 ```
 
 > **Just want to run it?** Open **[`Agent Evaluator - Dataverse.pbit`](./Agent%20Evaluator%20-%20Dataverse.pbit)**
-> in Power BI Desktop, set the three parameters below, and **Load**.
+> in Power BI Desktop, set the two parameters below, and **Load**.
 
 ---
 
@@ -116,11 +116,6 @@ for you.
 
 > **Org data stays a CSV (not Dataverse)** so you keep both acquisition methods — a manual Entra
 > export, or an Entra-Graph → SharePoint landing flow.
-
-> **Agents 365** is not surfaced in this build — the template exposes no `Agent 365 CSV`
-> parameter and has no Agents 365 table. For the Agent 365 registry use the Fabric path's
-> [`Copilot_Agent365_Registry_Ingester.ipynb`](../2.%20Fabric/notebooks/Copilot_Agent365_Registry_Ingester.ipynb)
-> or [`Copilot_Agent365_Lander.ipynb`](../2.%20Fabric/notebooks/Copilot_Agent365_Lander.ipynb).
 </details>
 
 <details>
@@ -177,7 +172,7 @@ the environment simply has no Copilot Studio transcripts in scope yet.
 ---
 
 > **Credit / message-credit consumption** is **not** in this path — it's scoped to Copilot Studio
-> transcript analytics (transcripts + org + optional Agents 365). For **PPAC Copilot Studio
+> transcript analytics (transcripts + org data). For **PPAC Copilot Studio
 > message-credit** pages, use [**Path 2 — Fabric**](../2.%20Fabric/).
 
 ⬅ Back to the [Agent Evaluator overview](../README.md).

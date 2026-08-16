@@ -81,7 +81,6 @@ fictional message text. No real tenant, user or conversation data.
 |---|---|
 | `data/conversationtranscripts.csv` | **Transcript CSV Path** — the transcripts |
 | `data/copilot_org_data.csv` | **Org Data CSV** — drives the org filter on every page |
-| `data/agents_365.csv` | *not read by this template* — provided for the Fabric path's `Copilot_Agent365_Lander.ipynb` |
 
 ---
 

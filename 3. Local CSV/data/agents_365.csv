@@ -1,9 +1,0 @@
-AgentId,AgentName,Publisher,AgentType,Environment,CreatedDate,LastActivityDate,Status,Capabilities,Owner
-4882b946-6f6c-4ffb-96b5-bbc259a5f46c,HR Leave Assistant,Contoso Ltd,Copilot Studio,Contoso (default),2025-08-10,2026-08-16,Active,Knowledge|Actions|GenerativeAnswers,alex.quill@contoso.com
-e8d87362-ec2c-46cb-ba96-412b7da812f2,IT Support Agent,Contoso Ltd,Copilot Studio,Contoso (default),2025-06-21,2026-08-16,Active,Knowledge|Actions|GenerativeAnswers,sofia.mercer@contoso.com
-43efc594-c320-4447-ba03-853d1520b5ed,Payroll Helper,Contoso Ltd,Copilot Studio,Contoso (default),2026-03-23,2026-08-16,Active,Knowledge|Actions|GenerativeAnswers,nadia.grady@contoso.com
-9e9d3407-1681-4260-a1f6-68f5a3f1950b,Employee Self-Service,Contoso Ltd,Copilot Studio,Contoso (default),2025-09-19,2026-08-16,Active,Knowledge|Actions|GenerativeAnswers,hiro.quill2@contoso.com
-f31950b7-3e43-4246-9d86-1b7792b8c17e,Procurement Advisor,Contoso Ltd,Copilot Studio,Contoso (default),2025-10-25,2026-08-16,Active,Knowledge|Actions|GenerativeAnswers,reese.vance@contoso.com
-2bc316de-0623-45ae-83d4-9ed31b1e905a,Onboarding Guide,Contoso Ltd,Copilot Studio,Contoso (default),2025-09-27,2026-08-16,Active,Knowledge|Actions|GenerativeAnswers,emerson.bennett@contoso.com
-53cbe532-37d0-4616-9a1f-1cd79a57b4ad,Travel & Expense Agent,Contoso Ltd,Copilot Studio,Contoso (default),2025-10-18,2026-08-16,Active,Knowledge|Actions|GenerativeAnswers,skyler.lockhart@contoso.com
-159780d0-ae71-45f7-aa29-2cfb2b0fbe7b,Facilities Bot,Contoso Ltd,Copilot Studio,Contoso (default),2025-10-26,2026-08-16,Active,Knowledge|Actions|GenerativeAnswers,dakota.bennett@contoso.com

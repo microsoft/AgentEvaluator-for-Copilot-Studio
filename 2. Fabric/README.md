@@ -17,7 +17,6 @@ consumption** — not the broader M365 Copilot value dashboard.
 | `Agent Evaluator - Fabric.pbit` | The Power BI template — Copilot Studio pages (Quality & Performance, Conversation Flow & Quality, Topic Explorer, Knowledge Files, Error Analysis, User Feedback) **plus** the PPAC **Credit Consumption** page, and reference appendices. |
 | `notebooks/Copilot_Agent_Transcript_Parser.ipynb` | Parses **Copilot Studio agent transcripts** (Dataverse `ConversationTranscript`) into the agent Delta tables (sessions, turns, errors, sub-agents, catalogue, performance). |
 | `notebooks/Copilot_Credit_Consumption_Ingester.ipynb` | Ingests the **Power Platform Admin Center (PPAC)** per-agent Copilot Studio **message-credit** export into the `credit_consumption_*` tables (drives the Credit Consumption page). |
-| `notebooks/Copilot_Agent365_Registry_Ingester_PREVIEW.ipynb` | Optional — Agent 365 registry/capability detail (delegated PREVIEW). |
 
 ## Quick start
 
@@ -33,7 +32,6 @@ Copilot Studio sources:
 |---|---|
 | Dataverse **Read** on `ConversationTranscript` (System Customizer / Environment Maker) | Transcript parser |
 | **Global / Billing Administrator** to export PPAC `MCSMessages` reports | Credit consumption |
-| `CopilotPackages.Read.All` + `Application.Read.All` *(optional)* | Agent 365 registry |
 
 ### 3. Run the notebooks
 Import each into the workspace, attach + pin your Lakehouse, fill the `# === CONFIG ===` cell, run.
@@ -42,7 +40,6 @@ Import each into the workspace, attach + pin your Lakehouse, fill the `# === CON
 |---|---|
 | `Copilot_Agent_Transcript_Parser.ipynb` | `agent_sessions`, `agent_turns`, `agent_errors`, `agent_subagents`, `agent_catalogue`, `agent_performance` |
 | `Copilot_Credit_Consumption_Ingester.ipynb` | `credit_consumption_tenant` / `_agent` / `_user` |
-| `Copilot_Agent365_Registry_Ingester_PREVIEW.ipynb` *(optional)* | `agents_365` |
 
 > **Org data (optional):** pages that break users down by department use a `copilot_org_data` table.
 > Land it from an Entra `/users` export if you want org-level slicing; otherwise those breakdowns show
