@@ -25,12 +25,11 @@ Power Platform export ─┤                          ├─▶ OneLake  Files/c
 Both write to OneLake with the **DFS (ADLS Gen2) three-step pattern**: `PUT ?resource=file` →
 `PATCH ?action=append` → `PATCH ?action=flush`.
 
-> **PPAC vs MAC — don't confuse the two credit exports.** This is the **per-agent Copilot Studio
-> *message* credit** export from the **Power Platform Admin Center** (`credit_consumption_*` tables →
-> `Enable_Consumption`). The **per-user Cowork / Work IQ *surface* credit** export from the **M365
-> Admin Center** is a *different* source that stays in every build —
-> see [`2. Fabric/flows/COST-CONSUMPTION.md`](../../../2.%20Fabric/flows/COST-CONSUMPTION.md)
-> (`copilot_cost_consumption` → `Enable_CostConsumption`).
+> **This is the PPAC credit export.** It is the **per-agent Copilot Studio *message*
+> credit** export from the **Power Platform Admin Center** (`credit_consumption_*`
+> tables → `Enable_Consumption`). The per-user Cowork / Work IQ *surface* credit
+> export from the M365 Admin Center is a different source and is **not** part of
+> Agent Evaluator — it belongs to ValueLens.
 
 ## Import & configure
 

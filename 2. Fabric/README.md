@@ -47,8 +47,9 @@ Import each into the workspace, attach + pin your Lakehouse, fill the `# === CON
 
 ### 4. Connect the template
 Open **`Agent Evaluator - Fabric.pbit`** in Power BI Desktop, set the **Fabric SQL
-Endpoint** and **Lakehouse Name** parameters, and set `Enable_Dataverse = Include` (agent pages) and
-`Enable_AgentConsumption = Include` (Credit Consumption page). **Load**, then **Publish**.
+Endpoint** and **Lakehouse Name** parameters, and leave `Enable_Consumption = Include`
+if you ran the credit ingester (set it to `Exclude` to skip the Credit Consumption
+page). **Load**, then **Publish**.
 
 ### 5. Schedule
 Schedule the notebooks (or a Fabric pipeline), then enable dataset **Scheduled refresh** in the Service.

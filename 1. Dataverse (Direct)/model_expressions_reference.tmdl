@@ -36,18 +36,6 @@ expression EmptyTable = (columns as list) as table => #table(columns, {})
 
 	annotation PBI_ResultType = Function
 
-/// Toggle (optional): load the Dataverse agent tables. False => they load empty.
-expression Enable_Dataverse = "Include"
-	lineageTag: 1a2b3c4d-fab1-4005-8005-000000000005
-
-	annotation PBI_ResultType = Text
-
-/// Toggle (optional): load the Product Feedback (OCV) table user_feedback.
-expression Enable_ProductFeedback = "Exclude"
-	lineageTag: 1a2b3c4d-fab1-4006-8006-000000000006
-
-	annotation PBI_ResultType = Text
-
 /// SOURCE MODE— where the agent/transcript tables come from.
 /// "Fabric"        => read the pre-parsed Delta tables from the Lakehouse (original behaviour).
 /// "Dataverse"     => pull conversationtranscripts straight from Dataverse and parse in Power Query.
