@@ -1,6 +1,6 @@
 # Path 2 — Fabric
 
-The **Fabric / Lakehouse** build of StudioLens. Notebooks land your Copilot Studio
+The **Fabric / Lakehouse** build of Agent Evaluator. Notebooks land your Copilot Studio
 data as Delta tables in a Lakehouse; the Power BI template is a thin client over the Lakehouse SQL
 endpoint. Focused on **Copilot Studio agent performance, quality, evaluation, and message-credit
 consumption** — not the broader M365 Copilot value dashboard.
@@ -14,7 +14,7 @@ consumption** — not the broader M365 Copilot value dashboard.
 
 | Item | Purpose |
 |---|---|
-| `StudioLens - Fabric.pbit` | The Power BI template — Copilot Studio pages (Quality & Performance, Conversation Flow & Quality, Topic Explorer, Knowledge Files, Error Analysis, User Feedback) **plus** the PPAC **Credit Consumption** page, and reference appendices. |
+| `Agent Evaluator - Fabric.pbit` | The Power BI template — Copilot Studio pages (Quality & Performance, Conversation Flow & Quality, Topic Explorer, Knowledge Files, Error Analysis, User Feedback) **plus** the PPAC **Credit Consumption** page, and reference appendices. |
 | `notebooks/Copilot_Agent_Transcript_Parser.ipynb` | Parses **Copilot Studio agent transcripts** (Dataverse `ConversationTranscript`) into the agent Delta tables (sessions, turns, errors, sub-agents, catalogue, performance). |
 | `notebooks/Copilot_Credit_Consumption_Ingester.ipynb` | Ingests the **Power Platform Admin Center (PPAC)** per-agent Copilot Studio **message-credit** export into the `credit_consumption_*` tables (drives the Credit Consumption page). |
 | `notebooks/Copilot_Agent365_Registry_Ingester_PREVIEW.ipynb` | Optional — Agent 365 registry/capability detail (delegated PREVIEW). |
@@ -49,7 +49,7 @@ Import each into the workspace, attach + pin your Lakehouse, fill the `# === CON
 > "Unknown".
 
 ### 4. Connect the template
-Open **`StudioLens - Fabric.pbit`** in Power BI Desktop, set the **Fabric SQL
+Open **`Agent Evaluator - Fabric.pbit`** in Power BI Desktop, set the **Fabric SQL
 Endpoint** and **Lakehouse Name** parameters, and set `Enable_Dataverse = Include` (agent pages) and
 `Enable_AgentConsumption = Include` (Credit Consumption page). **Load**, then **Publish**.
 

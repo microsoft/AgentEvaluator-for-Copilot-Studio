@@ -1,6 +1,6 @@
 # Path 1 — Dataverse (Direct)
 
-The **simplest** StudioLens build: the Power BI template reads Copilot Studio conversation transcripts
+The **simplest** Agent Evaluator build: the Power BI template reads Copilot Studio conversation transcripts
 **straight from Dataverse** and parses them **inside the model** (Power Query M). No Fabric capacity,
 no Lakehouse, no notebooks — just the `.pbit`, a Dataverse environment, and an org-data CSV.
 
@@ -17,7 +17,7 @@ Dataverse conversationtranscripts ─(native connector)─┐
    + org / Agents 365 ─(direct CSV file paths)────────────────► dashboard
 ```
 
-> **Just want to run it?** Open **[`StudioLens - Dataverse.pbit`](./StudioLens%20-%20Dataverse.pbit)**
+> **Just want to run it?** Open **[`Agent Evaluator - Dataverse.pbit`](./Agent%20Evaluator%20-%20Dataverse.pbit)**
 > in Power BI Desktop, set the three parameters below, and **Load**.
 
 ---
@@ -38,6 +38,23 @@ level to **Organizational** if prompted. Then enable **Scheduled refresh** in th
 
 > **No app registration / client secret** — the report uses the native Dataverse connector with the
 > refresher's own org login.
+
+### No tenant? Run it from a local CSV
+
+The template also reads transcripts straight from a CSV — no Dataverse, no Fabric, no
+customer data. Useful for demos, training and validating the parser offline.
+
+Set **Source Mode** to `TranscriptCSV` and point **Transcript CSV Path** at a
+`conversationtranscripts.csv`. A ready-made synthetic dataset (2,400 conversations,
+8 agents, 90 days) ships in [`../sample-data/`](../sample-data) — see
+[`sample-data/README.md`](../sample-data/README.md) for the walkthrough.
+
+| Parameter | Value in CSV mode |
+|---|---|
+| **Source Mode** | `TranscriptCSV` |
+| **Transcript CSV Path** | full path to `conversationtranscripts.csv` |
+| **Org Data CSV** | full path to `copilot_org_data.csv` |
+| **Dataverse Url** | leave blank — unused |
 
 <details>
 <summary><strong>Multiple environments in one report</strong> — combine several Dataverse orgs</summary>
@@ -161,4 +178,4 @@ the environment simply has no Copilot Studio transcripts in scope yet.
 > transcript analytics (transcripts + org + optional Agents 365). For **PPAC Copilot Studio
 > message-credit** pages, use [**Path 2 — Fabric**](../2.%20Fabric/).
 
-⬅ Back to the [StudioLens overview](../README.md).
+⬅ Back to the [Agent Evaluator overview](../README.md).
