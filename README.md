@@ -49,23 +49,27 @@ notebooks/resources, and step-by-step setup all live inside it. Pick the one tha
 
 | Path | Best for | What you need | Go to |
 |---|---|---|---|
-| **0 · Sample data** 🧪 | a **look before you commit** — the full dashboard on synthetic data | nothing at all | **[`sample-data/`](./sample-data/)** |
+| **3 · Local CSV** 🧪 | a **look before you commit** — the full dashboard on bundled demo data | nothing at all | **[`3. Local CSV/`](./3.%20Local%20CSV/)** |
 | **1 · Dataverse (Direct)** ⭐ | the **simplest** real footprint — transcripts parsed live **in the Power BI model** (Power Query M); nothing else to stand up | a Dataverse environment + an org-data CSV | **[`1. Dataverse (Direct)/`](./1.%20Dataverse%20(Direct)/)** |
 | **2 · Fabric** | **scheduled** Spark ingestion, larger volumes, and the **PPAC message-credit** pages | a Fabric capacity + Lakehouse | **[`2. Fabric/`](./2.%20Fabric/)** |
 
-Both surface the same Copilot Studio agent analytics — **Dataverse (Direct)** reads live transcripts and
-parses them in-model; **Fabric** lands them (plus credit consumption) as Delta tables for scale and
-scheduling. New to Agent Evaluator? Start with **[`sample-data/`](./sample-data/)** — it runs the whole
-dashboard from a local CSV with **no tenant and no capacity**, in about two minutes.
+All three surface the same Copilot Studio agent analytics — **Local CSV** reads a
+transcripts file straight from disk; **Dataverse (Direct)** reads live transcripts and
+parses them in-model; **Fabric** lands them (plus credit consumption) as Delta tables for
+scale and scheduling. New to Agent Evaluator? Start with
+**[`3. Local CSV/`](./3.%20Local%20CSV/)** — it runs the whole dashboard with **no tenant
+and no capacity**, in about two minutes.
 
-| | Dataverse (Direct) | Fabric |
-|---|---|---|
-| Setup effort | ✅ lowest (open `.pbit`, set 3 params) | notebooks + Lakehouse |
-| Infrastructure | none | Fabric capacity + Lakehouse |
-| Transcript pages (quality, topics, flow, errors, feedback) | ✅ | ✅ |
-| PPAC message-credit pages | ✖ | ✅ |
-| Best data volume | small–medium (Dataverse ~30-day retention) | large / historical |
-| Multi-environment | ✅ (one or many Dataverse URLs) | via Lakehouse |
+| | Local CSV | Dataverse (Direct) | Fabric |
+|---|---|---|---|
+| Setup effort | ✅ lowest (open `.pbit`, set 2 paths) | low (open `.pbit`, set 3 params) | notebooks + Lakehouse |
+| Infrastructure | none | none | Fabric capacity + Lakehouse |
+| Tenant required | ✖ none | Dataverse environment | Fabric capacity |
+| Transcript pages (quality, topics, flow, errors, feedback) | ✅ | ✅ | ✅ |
+| PPAC message-credit pages | ✖ | ✖ | ✅ |
+| Live / refreshing data | ✖ (static file) | ✅ | ✅ (scheduled) |
+| Best data volume | demo / offline | small–medium (Dataverse ~30-day retention) | large / historical |
+| Multi-environment | ✖ | ✅ (one or many Dataverse URLs) | via Lakehouse |
 
 ---
 

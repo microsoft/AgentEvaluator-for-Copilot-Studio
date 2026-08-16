@@ -8,11 +8,12 @@ from pathlib import Path
 
 import pandas as pd
 
-REPO = Path(__file__).resolve().parents[1]
+REPO = Path(__file__).resolve().parents[2]
 SAMPLES = REPO / "2. Fabric" / "notebooks" / "samples"
 sys.path.insert(0, str(SAMPLES))
 
-CSV = sys.argv[1] if len(sys.argv) > 1 else str(REPO / "sample-data" / "conversationtranscripts.csv")
+CSV = sys.argv[1] if len(sys.argv) > 1 else str(
+    Path(__file__).resolve().parents[1] / "data" / "conversationtranscripts.csv")
 
 # Run the smoke test harness with our CSV, capturing its namespace.
 harness = (SAMPLES / "smoketest_files_mode.py").read_text(encoding="utf-8-sig")

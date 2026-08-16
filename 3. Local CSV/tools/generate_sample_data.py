@@ -24,7 +24,7 @@ import uuid
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-OUT_DIR = Path(__file__).resolve().parent
+OUT_DIR = Path(__file__).resolve().parent.parent / "data"
 
 # --------------------------------------------------------------------------------------
 # Reference data - all fictional
@@ -250,10 +250,10 @@ def build_users(rng: random.Random, n_users: int):
         city, country = rng.choice(OFFICES)
         first, last = rng.choice(FIRST_NAMES), rng.choice(LAST_NAMES)
         base = f"{first.lower()}.{last.lower()}"
-        upn = f"{base}@contoso-demo.local"
+        upn = f"{base}@contoso.com"
         n = 2
         while upn in seen:
-            upn = f"{base}{n}@contoso-demo.local"
+            upn = f"{base}{n}@contoso.com"
             n += 1
         seen.add(upn)
         users.append({
@@ -264,7 +264,7 @@ def build_users(rng: random.Random, n_users: int):
             "jobTitle": rng.choice(titles),
             "officeLocation": city,
             "country": country,
-            "companyName": "Contoso Demo Ltd",
+            "companyName": "Contoso Ltd",
             "usageLocation": country,
         })
     for u in users:
@@ -522,7 +522,7 @@ def main() -> int:
             "bot_conversationtranscriptid.schemaname": agent["schema"],
             "agent_schema_hint": agent["schema"],
             "bot_name_hint": agent["name"],
-            "environment": "https://contoso-demo.crm.dynamics.com",
+            "environment": "https://contoso.crm.dynamics.com",
         })
 
     rows.sort(key=lambda r: r["conversationstarttime"])
@@ -555,9 +555,9 @@ def main() -> int:
             w.writerow({
                 "AgentId": stable_guid(rng),
                 "AgentName": a["name"],
-                "Publisher": "Contoso Demo Ltd",
+                "Publisher": "Contoso Ltd",
                 "AgentType": "Copilot Studio",
-                "Environment": "Contoso Demo (default)",
+                "Environment": "Contoso (default)",
                 "CreatedDate": (start - timedelta(days=rng.randint(30, 400))).strftime("%Y-%m-%d"),
                 "LastActivityDate": end.strftime("%Y-%m-%d"),
                 "Status": "Active",

@@ -24,13 +24,12 @@ Dataverse conversationtranscripts ─(native connector)─┐
 
 ## Connect the template
 
-The `.pbit` is **pre-set to Dataverse** — you only set three parameters:
+The `.pbit` is **pre-set to Dataverse** — you only set two parameters:
 
 | Parameter | Required? | Value |
 |---|---|---|
 | **Dataverse Url** | **Yes** | your environment URL, e.g. `https://yourorg.crm.dynamics.com` — or **several** separated by `;` to combine environments (see below) |
 | **Org Data CSV** | **Yes** | full file path (SharePoint URL or local/synced/UNC) to `copilot_org_data.csv` |
-| **Agent 365 CSV** | optional | full file path to `agents_365.csv` — **leave blank to skip** |
 
 On first refresh you'll get a one-time **Dataverse** sign-in: choose **Organizational account**, sign
 in with an org login that can **read the Conversation Transcript table**, and set the source privacy
@@ -42,12 +41,11 @@ level to **Organizational** if prompted. Then enable **Scheduled refresh** in th
 ### No tenant? Run it from a local CSV
 
 The template also reads transcripts straight from a CSV — no Dataverse, no Fabric, no
-customer data. Useful for demos, training and validating the parser offline.
+customer data. There is a **dedicated, pre-configured build** for this: see
+**[`../3. Local CSV/`](../3.%20Local%20CSV)**, which ships with a ready-made synthetic
+dataset (2,400 conversations, 8 agents, 90 days).
 
-Set **Source Mode** to `TranscriptCSV` and point **Transcript CSV Path** at a
-`conversationtranscripts.csv`. A ready-made synthetic dataset (2,400 conversations,
-8 agents, 90 days) ships in [`../sample-data/`](../sample-data) — see
-[`sample-data/README.md`](../sample-data/README.md) for the walkthrough.
+You can also switch *this* template over by hand:
 
 | Parameter | Value in CSV mode |
 |---|---|
@@ -112,13 +110,17 @@ environments that did respond.
 | File | Source export | Parameter | Required? |
 |---|---|---|---|
 | `copilot_org_data.csv` | Entra → Users (manual export) **or** a Graph `/users` → SharePoint landing flow | **Org Data CSV** | **Yes** (org filter on every page) |
-| `agents_365.csv` | M365 Admin → Agents → **Export** | **Agent 365 CSV** | optional |
 
 Org data is read from the **raw portal export** — the model normalises headers and US-format dates
-for you. Leave the Agents 365 path blank and that table loads empty (visuals degrade gracefully).
+for you.
 
 > **Org data stays a CSV (not Dataverse)** so you keep both acquisition methods — a manual Entra
 > export, or an Entra-Graph → SharePoint landing flow.
+
+> **Agents 365** is not surfaced in this build — the template exposes no `Agent 365 CSV`
+> parameter and has no Agents 365 table. For the Agent 365 registry use the Fabric path's
+> [`Copilot_Agent365_Registry_Ingester.ipynb`](../2.%20Fabric/notebooks/Copilot_Agent365_Registry_Ingester.ipynb)
+> or [`Copilot_Agent365_Lander.ipynb`](../2.%20Fabric/notebooks/Copilot_Agent365_Lander.ipynb).
 </details>
 
 <details>
