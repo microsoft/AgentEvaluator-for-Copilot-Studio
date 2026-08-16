@@ -23,22 +23,26 @@ Local CSV path
 
 1. Open **[`Agent Evaluator - Local CSV.pbit`](./Agent%20Evaluator%20-%20Local%20CSV.pbit)**
    in Power BI Desktop.
-2. Set the two file-path parameters (the template is **pre-set** to `TranscriptCSV`
+2. Set the folder parameter (the template is **pre-set** to `TranscriptCSV`
    mode, so `Source Mode` needs no change):
 
    | Parameter | Required? | Value |
    |---|---|---|
    | **Source Mode** | pre-set | `TranscriptCSV` — leave as-is |
-   | **Transcript CSV Path** | **Yes** | full path to `data\conversationtranscripts.csv` |
-   | **Org Data CSV** | **Yes** | full path to `data\copilot_org_data.csv` |
+   | **CSV Folder Path** | **Yes** | full path to the [`data/`](./data) folder |
    | **Dataverse Url** | no | leave blank — unused in this mode |
 
 3. **Load.** Every page renders against the demo data.
 
-> Use **full paths**, e.g.
-> `C:\repos\AgentEvaluator-for-Copilot-Studio\3. Local CSV\data\conversationtranscripts.csv`.
-> A SharePoint file URL (`https://…`) also works and refreshes cloud-to-cloud;
-> local paths need an on-premises gateway if you publish to the Service.
+> **One folder, not one path per file.** The template reads every CSV it needs
+> from that single folder by name — `conversationtranscripts.csv` and
+> `copilot_org_data.csv`. Keep the filenames as shipped.
+>
+> Point it at a folder, e.g.
+> `C:\repos\AgentEvaluator-for-Copilot-Studio\3. Local CSV\data`.
+> A **SharePoint document library URL** (`https://…`) also works and refreshes
+> cloud-to-cloud; local folders need an on-premises gateway if you publish to
+> the Service.
 
 ---
 
@@ -79,8 +83,10 @@ fictional message text. No real tenant, user or conversation data.
 
 | File | Used by |
 |---|---|
-| `data/conversationtranscripts.csv` | **Transcript CSV Path** — the transcripts |
-| `data/copilot_org_data.csv` | **Org Data CSV** — drives the org filter on every page |
+| `data/conversationtranscripts.csv` | the transcripts — resolved from **CSV Folder Path** |
+| `data/copilot_org_data.csv` | drives the org filter on every page — resolved from **CSV Folder Path** |
+
+> Filenames matter: the template looks for these exact names inside the folder.
 
 ---
 

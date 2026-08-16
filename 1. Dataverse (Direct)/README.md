@@ -29,7 +29,12 @@ The `.pbit` is **pre-set to Dataverse** — you only set two parameters:
 | Parameter | Required? | Value |
 |---|---|---|
 | **Dataverse Url** | **Yes** | your environment URL, e.g. `https://yourorg.crm.dynamics.com` — or **several** separated by `;` to combine environments (see below) |
-| **Org Data CSV** | **Yes** | full file path (SharePoint URL or local/synced/UNC) to `copilot_org_data.csv` |
+| **CSV Folder Path** | **Yes** | folder containing `copilot_org_data.csv` (a local/synced/UNC folder, or a SharePoint document library URL) |
+
+> **A folder, not a file path.** The template resolves each CSV it needs by name
+> inside that one folder — currently `copilot_org_data.csv`. Keep the filename as
+> exported. A SharePoint library URL refreshes cloud-to-cloud (OAuth2, no
+> gateway); a local or UNC folder needs an on-premises data gateway.
 
 On first refresh you'll get a one-time **Dataverse** sign-in: choose **Organizational account**, sign
 in with an org login that can **read the Conversation Transcript table**, and set the source privacy
@@ -50,8 +55,7 @@ You can also switch *this* template over by hand:
 | Parameter | Value in CSV mode |
 |---|---|
 | **Source Mode** | `TranscriptCSV` |
-| **Transcript CSV Path** | full path to `conversationtranscripts.csv` |
-| **Org Data CSV** | full path to `copilot_org_data.csv` |
+| **CSV Folder Path** | folder holding `conversationtranscripts.csv` + `copilot_org_data.csv` |
 | **Dataverse Url** | leave blank — unused |
 
 <details>
@@ -84,7 +88,7 @@ environments that did respond.
    **Organizational** for each. In the Service, **Scheduled refresh** needs credentials configured for
    **every** environment URL under dataset **Settings → Data source credentials**.
 4. **Keep privacy levels consistent** (all **Organizational**) across the environment sources and the
-   Org Data CSV, or Power Query's *Formula.Firewall* may block combining them.
+   CSV folder, or Power Query's *Formula.Firewall* may block combining them.
 5. **Refresh.** All environments load into one model; the `environment` tag is available on the base
    transcript data for filtering.
 
