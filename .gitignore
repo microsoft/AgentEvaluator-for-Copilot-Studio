@@ -1,7 +1,8 @@
 # Customer data — never commit
 *.csv
-!sample-data/*.csv
 !docs/*.csv
+# Synthetic demo data — safe to commit (no real tenant data)
+!3. Local CSV/data/*.csv
 # Synthetic parser fixture — safe to commit (no real tenant data)
 !2. Fabric/notebooks/samples/copilot_transcripts/*.csv
 

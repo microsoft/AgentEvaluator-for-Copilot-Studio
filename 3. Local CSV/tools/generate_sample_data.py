@@ -1,11 +1,10 @@
 """Generate demo-scale synthetic data for Agent Evaluator (local CSV mode).
 
-Produces three CSVs that let anyone open the template with **no Dataverse tenant,
+Produces two CSVs that let anyone open the template with **no Dataverse tenant,
 no Fabric capacity and no real customer data**:
 
     conversationtranscripts.csv   -> Transcript CSV Path   (Source Mode = "TranscriptCSV")
     copilot_org_data.csv          -> Org Data CSV          (required)
-    agents_365.csv                -> Agent 365 CSV         (optional)
 
 Everything is synthetic and seeded, so re-running reproduces identical output.
 No real users, tenants, agents or message text.
@@ -24,7 +23,7 @@ import uuid
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-OUT_DIR = Path(__file__).resolve().parent
+OUT_DIR = Path(__file__).resolve().parent.parent / "data"
 
 # --------------------------------------------------------------------------------------
 # Reference data - all fictional
@@ -250,10 +249,10 @@ def build_users(rng: random.Random, n_users: int):
         city, country = rng.choice(OFFICES)
         first, last = rng.choice(FIRST_NAMES), rng.choice(LAST_NAMES)
         base = f"{first.lower()}.{last.lower()}"
-        upn = f"{base}@contoso-demo.local"
+        upn = f"{base}@contoso.com"
         n = 2
         while upn in seen:
-            upn = f"{base}{n}@contoso-demo.local"
+            upn = f"{base}{n}@contoso.com"
             n += 1
         seen.add(upn)
         users.append({
@@ -264,7 +263,7 @@ def build_users(rng: random.Random, n_users: int):
             "jobTitle": rng.choice(titles),
             "officeLocation": city,
             "country": country,
-            "companyName": "Contoso Demo Ltd",
+            "companyName": "Contoso Ltd",
             "usageLocation": country,
         })
     for u in users:
@@ -522,7 +521,7 @@ def main() -> int:
             "bot_conversationtranscriptid.schemaname": agent["schema"],
             "agent_schema_hint": agent["schema"],
             "bot_name_hint": agent["name"],
-            "environment": "https://contoso-demo.crm.dynamics.com",
+            "environment": "https://contoso.crm.dynamics.com",
         })
 
     rows.sort(key=lambda r: r["conversationstarttime"])
@@ -544,34 +543,12 @@ def main() -> int:
         for u in users:
             w.writerow({c: u.get(c, "") for c in org_cols})
 
-    agents_path = OUT_DIR / "agents_365.csv"
-    agent_cols = ["AgentId", "AgentName", "Publisher", "AgentType", "Environment",
-                  "CreatedDate", "LastActivityDate", "Status", "Capabilities", "Owner"]
-    with agents_path.open("w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=agent_cols, quoting=csv.QUOTE_MINIMAL)
-        w.writeheader()
-        for a in AGENTS:
-            owner = rng.choice(users)
-            w.writerow({
-                "AgentId": stable_guid(rng),
-                "AgentName": a["name"],
-                "Publisher": "Contoso Demo Ltd",
-                "AgentType": "Copilot Studio",
-                "Environment": "Contoso Demo (default)",
-                "CreatedDate": (start - timedelta(days=rng.randint(30, 400))).strftime("%Y-%m-%d"),
-                "LastActivityDate": end.strftime("%Y-%m-%d"),
-                "Status": "Active",
-                "Capabilities": "Knowledge|Actions|GenerativeAnswers",
-                "Owner": owner["userPrincipalName"],
-            })
-
     by_agent = {}
     for r in rows:
         by_agent[r["agent_schema_hint"]] = by_agent.get(r["agent_schema_hint"], 0) + 1
 
     print("Wrote {:<32} {:>6,} conversations".format(transcripts_path.name, len(rows)))
     print("Wrote {:<32} {:>6,} users".format(org_path.name, len(users)))
-    print("Wrote {:<32} {:>6,} agents".format(agents_path.name, len(AGENTS)))
     print("Window: {} -> {}  ({} days, seed {})".format(start.date(), end.date(), args.days, args.seed))
     print("\nConversations per agent:")
     for schema, count in sorted(by_agent.items(), key=lambda kv: -kv[1]):

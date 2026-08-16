@@ -14,23 +14,27 @@ Dataverse conversationtranscripts ─(native connector)─┐
                                                        ▼
    Agent Sessions · Turns · Errors · Sub-Agent Calls · Performance · Catalogue
                                                        ▼
-   + org / Agents 365 ─(direct CSV file paths)────────────────► dashboard
+   + org data ─(direct CSV file path)─────────────────────────► dashboard
 ```
 
 > **Just want to run it?** Open **[`Agent Evaluator - Dataverse.pbit`](./Agent%20Evaluator%20-%20Dataverse.pbit)**
-> in Power BI Desktop, set the three parameters below, and **Load**.
+> in Power BI Desktop, set the two parameters below, and **Load**.
 
 ---
 
 ## Connect the template
 
-The `.pbit` is **pre-set to Dataverse** — you only set three parameters:
+The `.pbit` is **pre-set to Dataverse** — you only set two parameters:
 
 | Parameter | Required? | Value |
 |---|---|---|
 | **Dataverse Url** | **Yes** | your environment URL, e.g. `https://yourorg.crm.dynamics.com` — or **several** separated by `;` to combine environments (see below) |
-| **Org Data CSV** | **Yes** | full file path (SharePoint URL or local/synced/UNC) to `copilot_org_data.csv` |
-| **Agent 365 CSV** | optional | full file path to `agents_365.csv` — **leave blank to skip** |
+| **CSV Folder Path** | **Yes** | folder containing `copilot_org_data.csv` (a local/synced/UNC folder, or a SharePoint document library URL) |
+
+> **A folder, not a file path.** The template resolves each CSV it needs by name
+> inside that one folder — currently `copilot_org_data.csv`. Keep the filename as
+> exported. A SharePoint library URL refreshes cloud-to-cloud (OAuth2, no
+> gateway); a local or UNC folder needs an on-premises data gateway.
 
 On first refresh you'll get a one-time **Dataverse** sign-in: choose **Organizational account**, sign
 in with an org login that can **read the Conversation Transcript table**, and set the source privacy
@@ -42,18 +46,16 @@ level to **Organizational** if prompted. Then enable **Scheduled refresh** in th
 ### No tenant? Run it from a local CSV
 
 The template also reads transcripts straight from a CSV — no Dataverse, no Fabric, no
-customer data. Useful for demos, training and validating the parser offline.
+customer data. There is a **dedicated, pre-configured build** for this: see
+**[`../3. Local CSV/`](../3.%20Local%20CSV)**, which ships with a ready-made synthetic
+dataset (2,400 conversations, 8 agents, 90 days).
 
-Set **Source Mode** to `TranscriptCSV` and point **Transcript CSV Path** at a
-`conversationtranscripts.csv`. A ready-made synthetic dataset (2,400 conversations,
-8 agents, 90 days) ships in [`../sample-data/`](../sample-data) — see
-[`sample-data/README.md`](../sample-data/README.md) for the walkthrough.
+You can also switch *this* template over by hand:
 
 | Parameter | Value in CSV mode |
 |---|---|
 | **Source Mode** | `TranscriptCSV` |
-| **Transcript CSV Path** | full path to `conversationtranscripts.csv` |
-| **Org Data CSV** | full path to `copilot_org_data.csv` |
+| **CSV Folder Path** | folder holding `conversationtranscripts.csv` + `copilot_org_data.csv` |
 | **Dataverse Url** | leave blank — unused |
 
 <details>
@@ -86,7 +88,7 @@ environments that did respond.
    **Organizational** for each. In the Service, **Scheduled refresh** needs credentials configured for
    **every** environment URL under dataset **Settings → Data source credentials**.
 4. **Keep privacy levels consistent** (all **Organizational**) across the environment sources and the
-   Org Data CSV, or Power Query's *Formula.Firewall* may block combining them.
+   CSV folder, or Power Query's *Formula.Firewall* may block combining them.
 5. **Refresh.** All environments load into one model; the `environment` tag is available on the base
    transcript data for filtering.
 
@@ -112,10 +114,9 @@ environments that did respond.
 | File | Source export | Parameter | Required? |
 |---|---|---|---|
 | `copilot_org_data.csv` | Entra → Users (manual export) **or** a Graph `/users` → SharePoint landing flow | **Org Data CSV** | **Yes** (org filter on every page) |
-| `agents_365.csv` | M365 Admin → Agents → **Export** | **Agent 365 CSV** | optional |
 
 Org data is read from the **raw portal export** — the model normalises headers and US-format dates
-for you. Leave the Agents 365 path blank and that table loads empty (visuals degrade gracefully).
+for you.
 
 > **Org data stays a CSV (not Dataverse)** so you keep both acquisition methods — a manual Entra
 > export, or an Entra-Graph → SharePoint landing flow.
@@ -175,7 +176,7 @@ the environment simply has no Copilot Studio transcripts in scope yet.
 ---
 
 > **Credit / message-credit consumption** is **not** in this path — it's scoped to Copilot Studio
-> transcript analytics (transcripts + org + optional Agents 365). For **PPAC Copilot Studio
+> transcript analytics (transcripts + org data). For **PPAC Copilot Studio
 > message-credit** pages, use [**Path 2 — Fabric**](../2.%20Fabric/).
 
 ⬅ Back to the [Agent Evaluator overview](../README.md).

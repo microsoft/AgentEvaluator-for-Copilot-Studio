@@ -1,0 +1,421 @@
+id,userPrincipalName,displayName,department,jobTitle,officeLocation,country,companyName,usageLocation,managerUPN
+bc8960a9-23b8-41e9-b924-56de3eb13b90,hiro.jarvis@contoso.com,Hiro Jarvis,Finance,Financial Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,emerson.lockhart@contoso.com
+37f8a88b-17fc-495a-87a0-ca6e0822e8f3,elliot.oakley@contoso.com,Elliot Oakley,Engineering,QA Engineer,Manchester,United Kingdom,Contoso Ltd,United Kingdom,harper.hollis@contoso.com
+8b8148f6-b38a-488c-a65e-d389b74d0fb1,sawyer.hollis@contoso.com,Sawyer Hollis,Engineering,Site Reliability Engineer,London,United Kingdom,Contoso Ltd,United Kingdom,morgan.hollis@contoso.com
+c241330b-01a9-471f-9e8a-774bcf36d58b,elliot.jarvis@contoso.com,Elliot Jarvis,Sales,Sales Development Rep,Sydney,Australia,Contoso Ltd,Australia,arun.hollis@contoso.com
+562b0f79-c374-49ee-b50b-ea63371ecd7b,avery.fairbanks@contoso.com,Avery Fairbanks,Legal,Legal Counsel,Seattle,United States,Contoso Ltd,United States,emerson.bennett@contoso.com
+43b7a3a6-9a8d-4a03-980d-7b71d8f56413,riley.mercer@contoso.com,Riley Mercer,Finance,Financial Analyst,Singapore,Singapore,Contoso Ltd,Singapore,morgan.ingram@contoso.com
+d453dd32-4b0d-4b41-8d52-88f1142c3fe8,tomas.novak@contoso.com,Tomas Novak,Customer Service,Team Lead,Manchester,United Kingdom,Contoso Ltd,United Kingdom,emerson.lockhart2@contoso.com
+a9488d99-0bbb-4599-91ce-5dd2b45ed1f0,elliot.hollis@contoso.com,Elliot Hollis,Facilities,Facilities Coordinator,Seattle,United States,Contoso Ltd,United States,omar.vance@contoso.com
+47294739-614f-43d7-99db-3ad0ddd1dfb2,omar.ingram@contoso.com,Omar Ingram,Marketing,Content Strategist,Manchester,United Kingdom,Contoso Ltd,United Kingdom,sam.sinclair@contoso.com
+b3aa7efe-4458-4885-ab90-99a435a240ae,skyler.mercer@contoso.com,Skyler Mercer,Operations,Operations Manager,Dublin,Ireland,Contoso Ltd,Ireland,jordan.novak@contoso.com
+6123fdf7-7656-4f72-a9d4-beef3eabedcb,sawyer.ziegler@contoso.com,Sawyer Ziegler,Finance,Controller,Dublin,Ireland,Contoso Ltd,Ireland,finley.whitlock2@contoso.com
+0e51f30d-c6a7-4e39-84b0-32ccd7c524a5,arun.lockhart@contoso.com,Arun Lockhart,Engineering,QA Engineer,Amsterdam,Netherlands,Contoso Ltd,Netherlands,harper.duval@contoso.com
+f16287e4-e9c3-49e0-b602-f8ac10f1bc81,harper.jarvis@contoso.com,Harper Jarvis,Human Resources,Talent Coordinator,Seattle,United States,Contoso Ltd,United States,quinn.quill@contoso.com
+24933b83-7577-40a9-a491-f0b2ea1fca65,harper.espinosa@contoso.com,Harper Espinosa,Sales,Sales Manager,Sydney,Australia,Contoso Ltd,Australia,riley.espinosa@contoso.com
+95a76d79-bf3c-4c06-8343-08bc89fa6a68,hiro.sinclair@contoso.com,Hiro Sinclair,Information Technology,Service Desk Analyst,Amsterdam,Netherlands,Contoso Ltd,Netherlands,reese.ingram@contoso.com
+827050a8-2369-4584-bf5e-9ff0ff50bde4,skyler.ingram@contoso.com,Skyler Ingram,Facilities,Workplace Manager,Singapore,Singapore,Contoso Ltd,Singapore,luca.vance@contoso.com
+cac5b68c-28f4-4481-a0a0-4dc427209bdf,omar.ellery@contoso.com,Omar Ellery,Finance,Finance Manager,London,United Kingdom,Contoso Ltd,United Kingdom,finley.whitlock3@contoso.com
+877409a9-77d2-4e02-bf01-cf99988c24c9,harper.novak@contoso.com,Harper Novak,Facilities,Workplace Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,alex.delgado2@contoso.com
+8976e334-e281-4efd-ae84-92171d53434b,arun.ziegler@contoso.com,Arun Ziegler,Engineering,Engineering Manager,London,United Kingdom,Contoso Ltd,United Kingdom,riley.amara@contoso.com
+f42d47cc-00d4-4f59-b427-3ca3287d06ca,quinn.oakley@contoso.com,Quinn Oakley,Operations,Operations Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,riley.delgado@contoso.com
+4c66e0a8-a013-4c6e-9eda-4e161b3dbd5c,reese.fontaine@contoso.com,Reese Fontaine,Marketing,Marketing Analyst,Dublin,Ireland,Contoso Ltd,Ireland,riley.thorne2@contoso.com
+f4188f3f-8a14-4e62-a95b-4715c333e861,morgan.mercer@contoso.com,Morgan Mercer,Engineering,Software Engineer,Amsterdam,Netherlands,Contoso Ltd,Netherlands,taylor.duval2@contoso.com
+e0f3eab0-5cec-4eb5-add9-68311ca35cfb,dakota.bennett@contoso.com,Dakota Bennett,Facilities,Workplace Manager,Seattle,United States,Contoso Ltd,United States,mei.ingram@contoso.com
+15ed6269-1429-4c07-b26b-4776913e4de2,taylor.espinosa@contoso.com,Taylor Espinosa,Sales,Solution Specialist,London,United Kingdom,Contoso Ltd,United Kingdom,rowan.oakley@contoso.com
+2a45c2ab-8cbf-4db0-b264-accc79ac1b1e,morgan.whitlock@contoso.com,Morgan Whitlock,Finance,Controller,Dublin,Ireland,Contoso Ltd,Ireland,rowan.ellery@contoso.com
+b09b2a5c-badc-432a-8159-0f538a0f4efb,jamie.fontaine@contoso.com,Jamie Fontaine,Engineering,QA Engineer,Singapore,Singapore,Contoso Ltd,Singapore,ines.fairbanks@contoso.com
+847fd9b4-e64d-4bcb-b027-53a15f987c71,arun.vance@contoso.com,Arun Vance,Marketing,Content Strategist,Singapore,Singapore,Contoso Ltd,Singapore,marlow.ziegler@contoso.com
+8dcdcd03-969b-4662-8562-8059568cc69b,taylor.delgado@contoso.com,Taylor Delgado,Finance,Accounts Payable Clerk,Amsterdam,Netherlands,Contoso Ltd,Netherlands,mei.thorne@contoso.com
+3a9bedd4-0f12-49e0-a18f-f6b6b535106e,alex.delgado@contoso.com,Alex Delgado,Facilities,Facilities Coordinator,Amsterdam,Netherlands,Contoso Ltd,Netherlands,arun.ellery@contoso.com
+7c441fe7-ab42-40a7-874a-493b3ceddf2d,jordan.rutherford@contoso.com,Jordan Rutherford,Human Resources,People Partner,Seattle,United States,Contoso Ltd,United States,skyler.oakley@contoso.com
+7900f7f9-9382-4b43-922f-e15ae1e3db63,hiro.fontaine@contoso.com,Hiro Fontaine,Engineering,QA Engineer,Dublin,Ireland,Contoso Ltd,Ireland,sofia.grady@contoso.com
+5ab33edf-6e59-4ed3-a8b3-17fa18d0752b,jamie.ellery@contoso.com,Jamie Ellery,Customer Service,Escalations Specialist,Singapore,Singapore,Contoso Ltd,Singapore,rowan.underwood@contoso.com
+fbf24050-a748-4bcf-ac61-9e630dde29a6,omar.ziegler@contoso.com,Omar Ziegler,Legal,Compliance Officer,Sydney,Australia,Contoso Ltd,Australia,ines.sinclair@contoso.com
+1bf90e27-dc96-425e-8cf3-a17156dc8907,harper.ziegler@contoso.com,Harper Ziegler,Finance,Accounts Payable Clerk,London,United Kingdom,Contoso Ltd,United Kingdom,taylor.rutherford@contoso.com
+474ebc19-2ef9-4276-ac00-6f6123e2fcb4,sawyer.prescott@contoso.com,Sawyer Prescott,Sales,Solution Specialist,Amsterdam,Netherlands,Contoso Ltd,Netherlands,harper.espinosa@contoso.com
+19108be5-8ce2-4ea3-9b20-a56edc815fe7,finley.barros@contoso.com,Finley Barros,Sales,Account Executive,Manchester,United Kingdom,Contoso Ltd,United Kingdom,marlow.duval@contoso.com
+2a935d62-3c83-4dc0-9944-1fa5c0e9ab30,jordan.fontaine@contoso.com,Jordan Fontaine,Engineering,Site Reliability Engineer,London,United Kingdom,Contoso Ltd,United Kingdom,elliot.ziegler@contoso.com
+2a25a888-0f02-4ad0-a706-7ef466aa9385,jamie.duval@contoso.com,Jamie Duval,Customer Service,Escalations Specialist,Sydney,Australia,Contoso Ltd,Australia,tomas.novak@contoso.com
+490617f2-747b-4dba-88fe-3ccdc8b8d9c6,avery.fontaine@contoso.com,Avery Fontaine,Human Resources,HR Manager,Singapore,Singapore,Contoso Ltd,Singapore,tomas.chandra@contoso.com
+0ef8c2d6-f7fd-4646-b7bb-3eec4bf50b52,morgan.hollis@contoso.com,Morgan Hollis,Engineering,Software Engineer,Sydney,Australia,Contoso Ltd,Australia,avery.espinosa@contoso.com
+da4bd9ca-eb5c-4467-80ba-cd647a0ecfea,sam.thorne@contoso.com,Sam Thorne,Operations,Operations Manager,London,United Kingdom,Contoso Ltd,United Kingdom,priya.delgado@contoso.com
+98543881-118a-4d29-af92-3996d9f195d0,reese.delgado@contoso.com,Reese Delgado,Information Technology,Support Engineer,London,United Kingdom,Contoso Ltd,United Kingdom,jamie.fontaine2@contoso.com
+98326856-9434-4a03-bf07-f81491d63f78,riley.espinosa@contoso.com,Riley Espinosa,Sales,Account Executive,Singapore,Singapore,Contoso Ltd,Singapore,marlow.fairbanks@contoso.com
+50fd9d3f-85d5-4695-90b2-b633956b8c0c,emerson.whitlock@contoso.com,Emerson Whitlock,Facilities,Workplace Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,taylor.fairbanks@contoso.com
+a53f8a28-abf3-43fc-a181-3d25655238a6,taylor.jarvis@contoso.com,Taylor Jarvis,Sales,Sales Manager,Seattle,United States,Contoso Ltd,United States,mei.keane2@contoso.com
+75523327-0262-4f73-9292-2f83ef8c485b,tomas.amara@contoso.com,Tomas Amara,Customer Service,Team Lead,Seattle,United States,Contoso Ltd,United States,skyler.sinclair@contoso.com
+21e8ac68-43e4-4caf-8181-a8cc369147eb,jordan.sinclair@contoso.com,Jordan Sinclair,Facilities,Workplace Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,reese.chandra@contoso.com
+8b10550c-d570-4f32-b02c-dd20286218b8,skyler.keane@contoso.com,Skyler Keane,Finance,Controller,Amsterdam,Netherlands,Contoso Ltd,Netherlands,jordan.rutherford2@contoso.com
+a9d3d7c7-ee87-405e-8ca4-15ea8dfa6a56,arun.chandra@contoso.com,Arun Chandra,Facilities,Facilities Coordinator,London,United Kingdom,Contoso Ltd,United Kingdom,ines.chandra@contoso.com
+27cb6f2a-8da0-4097-be0f-051b1b66b5a9,riley.espinosa2@contoso.com,Riley Espinosa,Information Technology,IT Manager,New York,United States,Contoso Ltd,United States,luca.underwood@contoso.com
+da587e8a-a25d-4b29-afff-cfd2341ef40b,mei.lockhart@contoso.com,Mei Lockhart,Marketing,Content Strategist,Amsterdam,Netherlands,Contoso Ltd,Netherlands,jamie.ellery2@contoso.com
+17a0df49-0d01-480f-989a-40c0e87d1c78,avery.espinosa@contoso.com,Avery Espinosa,Engineering,Site Reliability Engineer,Sydney,Australia,Contoso Ltd,Australia,avery.amara2@contoso.com
+fad409e2-a319-4cb4-a17d-65a0c56811cd,alex.lockhart@contoso.com,Alex Lockhart,Marketing,Content Strategist,London,United Kingdom,Contoso Ltd,United Kingdom,avery.hollis2@contoso.com
+1ca3c448-0279-46a6-8f97-97b06d7ce3c9,sawyer.yates@contoso.com,Sawyer Yates,Information Technology,Support Engineer,Sydney,Australia,Contoso Ltd,Australia,luca.underwood@contoso.com
+6e068097-25e9-4977-8d72-48e2951f58d0,nadia.mercer@contoso.com,Nadia Mercer,Information Technology,Systems Administrator,London,United Kingdom,Contoso Ltd,United Kingdom,riley.thorne@contoso.com
+dc570131-f8e1-4aa7-8bce-abdeeededb07,skyler.espinosa@contoso.com,Skyler Espinosa,Human Resources,HR Advisor,New York,United States,Contoso Ltd,United States,avery.fontaine@contoso.com
+c7b5b2bc-5a8a-4eca-9a50-aec3aabc25fa,arun.ingram@contoso.com,Arun Ingram,Operations,Operations Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,sam.whitlock@contoso.com
+f9e8a369-2999-4735-9d56-cc943c9ad14c,tomas.fontaine@contoso.com,Tomas Fontaine,Legal,Legal Counsel,Dublin,Ireland,Contoso Ltd,Ireland,omar.ziegler@contoso.com
+ee49f329-c84a-4b28-950a-1b46ecab3301,casey.ziegler@contoso.com,Casey Ziegler,Legal,Contracts Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,dakota.carver@contoso.com
+df465290-61ee-411a-9bac-27a7b386f7a4,casey.barros@contoso.com,Casey Barros,Sales,Account Executive,New York,United States,Contoso Ltd,United States,ines.amara@contoso.com
+4e20fd1a-5983-46e3-b5d6-6ed4eb1fa9f2,jamie.chandra@contoso.com,Jamie Chandra,Customer Service,Support Advisor,Amsterdam,Netherlands,Contoso Ltd,Netherlands,jamie.duval@contoso.com
+dd463c09-4752-47aa-9408-f9ac6601ddd0,arun.hollis@contoso.com,Arun Hollis,Sales,Account Executive,London,United Kingdom,Contoso Ltd,United Kingdom,taylor.barros@contoso.com
+d7fa2d8d-fb2c-4025-adf4-e62d6651529e,priya.rutherford@contoso.com,Priya Rutherford,Marketing,Marketing Analyst,Seattle,United States,Contoso Ltd,United States,hiro.delgado@contoso.com
+94a1875d-2db6-4edb-82de-ffccf86c2ca2,riley.espinosa3@contoso.com,Riley Espinosa,Operations,Logistics Coordinator,London,United Kingdom,Contoso Ltd,United Kingdom,quinn.carver@contoso.com
+504d281f-c953-4b63-ba81-edd9587ef344,marlow.oakley@contoso.com,Marlow Oakley,Human Resources,HR Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,sofia.keane@contoso.com
+0b5cea6a-4135-4e8c-b0a9-00ad939b462d,harper.espinosa2@contoso.com,Harper Espinosa,Facilities,Workplace Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,jordan.ingram2@contoso.com
+ebb7a385-aa0b-4b14-b2e9-702d11e9cdaa,skyler.oakley@contoso.com,Skyler Oakley,Human Resources,Talent Coordinator,Amsterdam,Netherlands,Contoso Ltd,Netherlands,reese.keane@contoso.com
+4ce1eb90-e669-4833-b841-d0a01fe771d6,arun.duval@contoso.com,Arun Duval,Facilities,Workplace Manager,Seattle,United States,Contoso Ltd,United States,dakota.espinosa@contoso.com
+311c6eb6-2095-4ef6-8ded-f9fb4bb00f20,harper.yates@contoso.com,Harper Yates,Legal,Contracts Analyst,Seattle,United States,Contoso Ltd,United States,alex.ziegler2@contoso.com
+d56f0350-8c45-4ce2-a7f4-8ad54d0b0d1a,marlow.thorne@contoso.com,Marlow Thorne,Legal,Legal Counsel,Dublin,Ireland,Contoso Ltd,Ireland,avery.hollis4@contoso.com
+a79ac9aa-9b4e-4c24-9479-e1e6c9277d9b,jamie.oakley@contoso.com,Jamie Oakley,Marketing,Content Strategist,New York,United States,Contoso Ltd,United States,alex.ziegler@contoso.com
+cb323e35-7922-4ac2-82dc-4c8e36b5229a,finley.whitlock@contoso.com,Finley Whitlock,Customer Service,Team Lead,Sydney,Australia,Contoso Ltd,Australia,ines.keane2@contoso.com
+55cee5db-9e87-404c-a208-6977a9f25336,quinn.rutherford@contoso.com,Quinn Rutherford,Information Technology,Support Engineer,Manchester,United Kingdom,Contoso Ltd,United Kingdom,sawyer.yates@contoso.com
+0bd4a990-0640-4e0f-a5b8-fd4b32fa2de8,taylor.barros@contoso.com,Taylor Barros,Sales,Sales Development Rep,New York,United States,Contoso Ltd,United States,sam.lockhart@contoso.com
+31c681ec-935f-4b0a-a138-4ddce2d9de5d,finley.oakley@contoso.com,Finley Oakley,Customer Service,Team Lead,Manchester,United Kingdom,Contoso Ltd,United Kingdom,emerson.chandra@contoso.com
+016b6287-b008-45cc-a7f3-6ae925c73c44,harper.ingram@contoso.com,Harper Ingram,Legal,Legal Counsel,Sydney,Australia,Contoso Ltd,Australia,jordan.barros@contoso.com
+76ecbdd6-8498-4113-b227-462cf53d4330,casey.barros2@contoso.com,Casey Barros,Legal,Legal Counsel,Amsterdam,Netherlands,Contoso Ltd,Netherlands,finley.lockhart@contoso.com
+cd29a36f-2222-42e1-b4da-aebf1f115b76,tomas.duval@contoso.com,Tomas Duval,Engineering,Site Reliability Engineer,Amsterdam,Netherlands,Contoso Ltd,Netherlands,marlow.carver@contoso.com
+b8225688-d0a4-4432-9cd6-c852714c7df4,ines.espinosa@contoso.com,Ines Espinosa,Engineering,Site Reliability Engineer,Seattle,United States,Contoso Ltd,United States,rowan.ingram@contoso.com
+7337c599-7984-4388-9c8a-ee30be6033f7,sofia.grady@contoso.com,Sofia Grady,Engineering,Engineering Manager,Sydney,Australia,Contoso Ltd,Australia,harper.amara@contoso.com
+3d3f3799-a072-45e9-bc0e-8cd88573e793,ines.amara@contoso.com,Ines Amara,Sales,Sales Manager,New York,United States,Contoso Ltd,United States,harper.espinosa@contoso.com
+51d87c64-55fa-4ab8-858f-1f193c07c574,mei.keane@contoso.com,Mei Keane,Customer Service,Team Lead,Manchester,United Kingdom,Contoso Ltd,United Kingdom,harper.prescott@contoso.com
+b4d7e28e-271e-4ee2-b1a6-b1f1620e99d3,morgan.ingram@contoso.com,Morgan Ingram,Finance,Accounts Payable Clerk,Dublin,Ireland,Contoso Ltd,Ireland,priya.amara@contoso.com
+0ff0a55c-6a70-4e2f-b746-d0ba8ae8905b,emerson.lockhart@contoso.com,Emerson Lockhart,Finance,Accounts Payable Clerk,Singapore,Singapore,Contoso Ltd,Singapore,reese.fairbanks@contoso.com
+05000bc6-b20d-4b6e-b231-1f1795863a76,sofia.amara@contoso.com,Sofia Amara,Legal,Compliance Officer,Singapore,Singapore,Contoso Ltd,Singapore,jordan.thorne2@contoso.com
+da7b9095-63d6-4a39-80e3-befd4c71e0fe,alex.mercer@contoso.com,Alex Mercer,Legal,Contracts Analyst,Sydney,Australia,Contoso Ltd,Australia,tomas.fontaine2@contoso.com
+076e2bba-7c53-48bf-af92-f25e45df16b6,dakota.ingram@contoso.com,Dakota Ingram,Engineering,Site Reliability Engineer,Amsterdam,Netherlands,Contoso Ltd,Netherlands,hiro.fontaine@contoso.com
+20ac3703-eb67-446a-b7a6-e17cd72b6108,hiro.grady@contoso.com,Hiro Grady,Operations,Operations Manager,Singapore,Singapore,Contoso Ltd,Singapore,harper.lockhart@contoso.com
+06f028ff-a9ba-4a27-907b-fe36978648f8,tomas.novak2@contoso.com,Tomas Novak,Engineering,Software Engineer,London,United Kingdom,Contoso Ltd,United Kingdom,harper.amara@contoso.com
+610cf373-4299-4aa4-8cdf-742b2e85cb21,omar.prescott@contoso.com,Omar Prescott,Legal,Contracts Analyst,Dublin,Ireland,Contoso Ltd,Ireland,jordan.quill@contoso.com
+473bd358-610e-4a64-a130-1617c2dff335,rowan.lockhart@contoso.com,Rowan Lockhart,Sales,Solution Specialist,Sydney,Australia,Contoso Ltd,Australia,taylor.barros@contoso.com
+fff9f585-0d55-4b61-8a17-5dfebfc00dc8,dakota.bennett2@contoso.com,Dakota Bennett,Marketing,Content Strategist,Manchester,United Kingdom,Contoso Ltd,United Kingdom,arun.vance@contoso.com
+f319c125-07f1-44f9-8115-6d6d0a4e5b70,ines.vance@contoso.com,Ines Vance,Sales,Sales Development Rep,Manchester,United Kingdom,Contoso Ltd,United Kingdom,hiro.quill@contoso.com
+ab61a7b1-793b-4c32-a050-04943d114802,marlow.fairbanks@contoso.com,Marlow Fairbanks,Sales,Account Executive,London,United Kingdom,Contoso Ltd,United Kingdom,arun.hollis@contoso.com
+2af43ab7-5e6f-4a07-8453-6f1d41992fdf,finley.yates@contoso.com,Finley Yates,Facilities,Facilities Coordinator,Amsterdam,Netherlands,Contoso Ltd,Netherlands,elliot.novak@contoso.com
+93676a02-4fdc-4e1b-adcb-8cb60692dc63,riley.thorne@contoso.com,Riley Thorne,Information Technology,Service Desk Analyst,New York,United States,Contoso Ltd,United States,sawyer.quill2@contoso.com
+3e2b6091-a092-452a-94a0-57a7b0cc1b3b,jordan.thorne@contoso.com,Jordan Thorne,Legal,Legal Counsel,Amsterdam,Netherlands,Contoso Ltd,Netherlands,marlow.thorne@contoso.com
+8861fe18-58e2-4888-8a83-81bec85aca46,luca.thorne@contoso.com,Luca Thorne,Marketing,Content Strategist,Manchester,United Kingdom,Contoso Ltd,United Kingdom,avery.hollis2@contoso.com
+6b88f83d-d97d-49cd-833d-2bce575aed2c,reese.vance@contoso.com,Reese Vance,Operations,Logistics Coordinator,Manchester,United Kingdom,Contoso Ltd,United Kingdom,sam.jarvis@contoso.com
+b5122df8-75b1-4a55-9426-2982e43e4288,skyler.vance@contoso.com,Skyler Vance,Finance,Accounts Payable Clerk,Singapore,Singapore,Contoso Ltd,Singapore,riley.rutherford@contoso.com
+9dac6e83-4524-4ea6-a684-6099f7294951,hiro.rutherford@contoso.com,Hiro Rutherford,Legal,Compliance Officer,Dublin,Ireland,Contoso Ltd,Ireland,jordan.thorne2@contoso.com
+52828d80-44b5-41f7-97ac-6aa8bb2488a3,emerson.chandra@contoso.com,Emerson Chandra,Customer Service,Support Advisor,Sydney,Australia,Contoso Ltd,Australia,avery.whitlock@contoso.com
+91e1aa96-76f7-4255-801f-36bf3e6dd58b,sofia.prescott@contoso.com,Sofia Prescott,Finance,Finance Manager,New York,United States,Contoso Ltd,United States,elliot.sinclair2@contoso.com
+364d7c87-7cd0-429d-ae8d-0e87533420e6,dakota.duval@contoso.com,Dakota Duval,Operations,Logistics Coordinator,London,United Kingdom,Contoso Ltd,United Kingdom,marlow.novak2@contoso.com
+46b98991-e14e-470d-b380-c73a989d9d4a,avery.espinosa2@contoso.com,Avery Espinosa,Marketing,Marketing Analyst,Seattle,United States,Contoso Ltd,United States,sofia.chandra@contoso.com
+8e200724-7d13-4018-a80b-ac63b856d035,jordan.ingram@contoso.com,Jordan Ingram,Human Resources,People Partner,Amsterdam,Netherlands,Contoso Ltd,Netherlands,reese.prescott4@contoso.com
+38ba8abc-4b53-45e5-97d2-582e046a0df5,finley.barros2@contoso.com,Finley Barros,Customer Service,Escalations Specialist,Sydney,Australia,Contoso Ltd,Australia,priya.keane@contoso.com
+87ea7ff5-8db0-4746-b927-99735e781fd7,arun.thorne@contoso.com,Arun Thorne,Sales,Sales Manager,New York,United States,Contoso Ltd,United States,omar.quill@contoso.com
+405bfdc9-4e7e-4827-855a-c7627428a656,skyler.yates@contoso.com,Skyler Yates,Legal,Legal Counsel,Seattle,United States,Contoso Ltd,United States,tomas.fontaine2@contoso.com
+c31edbbc-f36c-462b-892e-6161be2d740a,rowan.ellery@contoso.com,Rowan Ellery,Finance,Accounts Payable Clerk,Amsterdam,Netherlands,Contoso Ltd,Netherlands,skyler.vance@contoso.com
+fa02eaec-96ef-4ad6-b97e-670346c8adfe,hiro.quill@contoso.com,Hiro Quill,Sales,Sales Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,omar.quill@contoso.com
+039f3a25-4d61-48bd-adef-e1935c62b3a2,quinn.ingram@contoso.com,Quinn Ingram,Finance,Accounts Payable Clerk,Amsterdam,Netherlands,Contoso Ltd,Netherlands,morgan.ingram@contoso.com
+2053da42-f1af-4b65-b289-f2244ac9778d,sam.sinclair@contoso.com,Sam Sinclair,Marketing,Marketing Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,elliot.oakley2@contoso.com
+7a8d03aa-782a-45e0-88ca-765192f5df7b,omar.bennett@contoso.com,Omar Bennett,Customer Service,Escalations Specialist,Manchester,United Kingdom,Contoso Ltd,United Kingdom,omar.hollis@contoso.com
+1d34d08e-7a4c-45d4-9c99-e04cf0e98b3b,sam.jarvis@contoso.com,Sam Jarvis,Operations,Operations Analyst,Dublin,Ireland,Contoso Ltd,Ireland,arun.ingram@contoso.com
+26d794d3-0db9-4301-afbb-411aa1235a8c,jordan.thorne2@contoso.com,Jordan Thorne,Legal,Legal Counsel,Sydney,Australia,Contoso Ltd,Australia,alex.ziegler2@contoso.com
+6a8a616f-c3b2-40d0-8edd-dfcd1e52d770,jordan.ingram2@contoso.com,Jordan Ingram,Facilities,Facilities Coordinator,New York,United States,Contoso Ltd,United States,elliot.novak@contoso.com
+96a9954f-dc33-41f9-8c1f-55ab715629ee,finley.fontaine@contoso.com,Finley Fontaine,Engineering,Site Reliability Engineer,Singapore,Singapore,Contoso Ltd,Singapore,rowan.ingram@contoso.com
+3531968d-c342-4d2b-b295-456e19675f06,marlow.ziegler@contoso.com,Marlow Ziegler,Marketing,Marketing Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,riley.fairbanks@contoso.com
+8d4f5d27-2c7f-4b79-bd67-cde92834e4c0,arun.delgado@contoso.com,Arun Delgado,Sales,Account Executive,New York,United States,Contoso Ltd,United States,omar.quill@contoso.com
+4a8ff810-784c-4f29-9804-02a2b07aa066,emerson.prescott@contoso.com,Emerson Prescott,Information Technology,Support Engineer,London,United Kingdom,Contoso Ltd,United Kingdom,sam.fairbanks@contoso.com
+1238d630-743b-45a2-9c0f-2fcfb3f6fe0d,mei.keane2@contoso.com,Mei Keane,Sales,Sales Development Rep,New York,United States,Contoso Ltd,United States,riley.espinosa@contoso.com
+26242b40-a5cb-43a2-b98d-1ca68b6870b5,emerson.ellery@contoso.com,Emerson Ellery,Marketing,Content Strategist,Amsterdam,Netherlands,Contoso Ltd,Netherlands,finley.carver@contoso.com
+bfbbb17f-9854-4e4e-8ebf-a5c3cae9b4a7,sam.grady@contoso.com,Sam Grady,Information Technology,IT Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,reese.prescott@contoso.com
+f1533ae8-670a-4c5c-b321-bf214dd8eb85,finley.yates2@contoso.com,Finley Yates,Customer Service,Escalations Specialist,Manchester,United Kingdom,Contoso Ltd,United Kingdom,jordan.espinosa@contoso.com
+6e996e3e-e3b1-47fc-8a34-50fc9918ee46,finley.delgado@contoso.com,Finley Delgado,Engineering,Engineering Manager,Sydney,Australia,Contoso Ltd,Australia,sawyer.oakley@contoso.com
+d6016237-ac9e-4156-b63f-ce413a9aca5e,alex.delgado2@contoso.com,Alex Delgado,Facilities,Facilities Coordinator,New York,United States,Contoso Ltd,United States,reese.prescott3@contoso.com
+a6c9537f-84da-406a-b872-bdeb2cd94cbb,ines.amara2@contoso.com,Ines Amara,Marketing,Content Strategist,London,United Kingdom,Contoso Ltd,United Kingdom,riley.fairbanks@contoso.com
+f8140102-7de1-4dfe-9072-5b5ca2814044,elliot.oakley2@contoso.com,Elliot Oakley,Marketing,Campaign Manager,Dublin,Ireland,Contoso Ltd,Ireland,jamie.ingram@contoso.com
+db946570-1ac7-4ec0-ab8d-deb45230dfbd,emerson.lockhart2@contoso.com,Emerson Lockhart,Customer Service,Support Advisor,Seattle,United States,Contoso Ltd,United States,morgan.keane@contoso.com
+668409e3-f1f8-443e-a99f-131849c8a43f,mei.quill@contoso.com,Mei Quill,Operations,Operations Manager,Singapore,Singapore,Contoso Ltd,Singapore,reese.vance@contoso.com
+f85e06a1-1dad-49b2-92c2-1221409d3602,jordan.lockhart@contoso.com,Jordan Lockhart,Human Resources,HR Manager,Sydney,Australia,Contoso Ltd,Australia,marlow.oakley@contoso.com
+0de051a6-69ca-47d2-b644-14fd8ae769ed,arun.duval2@contoso.com,Arun Duval,Engineering,QA Engineer,London,United Kingdom,Contoso Ltd,United Kingdom,harper.amara@contoso.com
+c28ebd70-7129-4889-a01a-c9927f9d3e64,marlow.amara@contoso.com,Marlow Amara,Engineering,Software Engineer,Seattle,United States,Contoso Ltd,United States,riley.bennett@contoso.com
+e17f29e1-7028-4046-89bc-473fed7bf656,sawyer.fairbanks@contoso.com,Sawyer Fairbanks,Sales,Solution Specialist,New York,United States,Contoso Ltd,United States,marlow.fairbanks@contoso.com
+288b78b5-b5b4-43ca-bd42-993ccc9fd334,priya.underwood@contoso.com,Priya Underwood,Finance,Controller,London,United Kingdom,Contoso Ltd,United Kingdom,omar.ellery@contoso.com
+d7665cda-fe04-4059-b985-fb6217dc8eff,sawyer.oakley@contoso.com,Sawyer Oakley,Engineering,Software Engineer,London,United Kingdom,Contoso Ltd,United Kingdom,arun.duval2@contoso.com
+b77350ca-eec2-49dc-bf95-897c276aa6ce,priya.chandra@contoso.com,Priya Chandra,Customer Service,Escalations Specialist,Manchester,United Kingdom,Contoso Ltd,United Kingdom,skyler.sinclair@contoso.com
+3e652603-78e3-454b-baf1-4ff07b85179a,emerson.chandra2@contoso.com,Emerson Chandra,Engineering,Site Reliability Engineer,New York,United States,Contoso Ltd,United States,morgan.hollis@contoso.com
+bf0d073d-821c-4336-9970-cf60ebff8d15,harper.hollis@contoso.com,Harper Hollis,Engineering,QA Engineer,Dublin,Ireland,Contoso Ltd,Ireland,taylor.duval2@contoso.com
+ef2ae713-5702-4049-aa39-aaa6dabac50d,ines.barros@contoso.com,Ines Barros,Finance,Controller,New York,United States,Contoso Ltd,United States,morgan.ingram@contoso.com
+ffb8102d-9475-4bc9-9641-8cedd664d264,hiro.keane@contoso.com,Hiro Keane,Human Resources,HR Manager,New York,United States,Contoso Ltd,United States,jordan.lockhart@contoso.com
+c34b9fbb-8d4a-45b8-951a-c8ea585a0afa,sawyer.quill@contoso.com,Sawyer Quill,Information Technology,Service Desk Analyst,Sydney,Australia,Contoso Ltd,Australia,nadia.mercer@contoso.com
+9261549d-3d22-4c30-b28f-41defb140bc3,omar.hollis@contoso.com,Omar Hollis,Customer Service,Escalations Specialist,Seattle,United States,Contoso Ltd,United States,priya.keane@contoso.com
+e9d68f23-b489-4070-b914-f8a8bea4ff31,sam.lockhart@contoso.com,Sam Lockhart,Sales,Solution Specialist,Singapore,Singapore,Contoso Ltd,Singapore,ines.amara@contoso.com
+9716108e-f721-49bb-8096-27182051acef,dakota.carver@contoso.com,Dakota Carver,Legal,Contracts Analyst,Dublin,Ireland,Contoso Ltd,Ireland,jordan.quill@contoso.com
+b8f21423-03ed-41f8-b4f9-3d17e912b4bf,riley.rutherford@contoso.com,Riley Rutherford,Finance,Accounts Payable Clerk,Sydney,Australia,Contoso Ltd,Australia,finley.thorne@contoso.com
+56abf2f1-43d8-4870-b81d-baa1c8120a8e,jordan.quill@contoso.com,Jordan Quill,Legal,Compliance Officer,Dublin,Ireland,Contoso Ltd,Ireland,avery.hollis4@contoso.com
+889b78d5-dbfd-497e-aca2-b148da330aa1,omar.lockhart@contoso.com,Omar Lockhart,Legal,Contracts Analyst,Manchester,United Kingdom,Contoso Ltd,United Kingdom,alex.mercer@contoso.com
+3c19e71d-1184-45ad-9e11-d2cd0930aef6,omar.sinclair@contoso.com,Omar Sinclair,Operations,Operations Manager,Sydney,Australia,Contoso Ltd,Australia,sam.whitlock@contoso.com
+c2a79689-1933-418c-ba74-57616f18c108,hiro.delgado@contoso.com,Hiro Delgado,Marketing,Marketing Analyst,Amsterdam,Netherlands,Contoso Ltd,Netherlands,elliot.ingram2@contoso.com
+0bc61066-0769-465f-a746-ccb94ca9cf07,casey.yates@contoso.com,Casey Yates,Finance,Controller,Sydney,Australia,Contoso Ltd,Australia,quinn.barros@contoso.com
+87fa841a-3e83-491f-a544-0fe06e417d47,skyler.mercer2@contoso.com,Skyler Mercer,Human Resources,HR Manager,New York,United States,Contoso Ltd,United States,morgan.yates@contoso.com
+61ee6c5b-deef-480f-9c07-a75114374509,casey.grady@contoso.com,Casey Grady,Facilities,Facilities Coordinator,Dublin,Ireland,Contoso Ltd,Ireland,priya.rutherford2@contoso.com
+415d174a-75a6-4981-8104-a8b5a34db7c5,taylor.prescott@contoso.com,Taylor Prescott,Customer Service,Team Lead,Dublin,Ireland,Contoso Ltd,Ireland,sofia.delgado@contoso.com
+12e89d10-2871-4733-8bed-db12ad77e82f,sofia.keane@contoso.com,Sofia Keane,Human Resources,HR Manager,Sydney,Australia,Contoso Ltd,Australia,quinn.hollis@contoso.com
+d865d69a-74f3-4103-8006-6ff2b0b862ef,priya.oakley@contoso.com,Priya Oakley,Operations,Logistics Coordinator,New York,United States,Contoso Ltd,United States,riley.espinosa3@contoso.com
+92698698-61a1-4729-bcb9-83501b4da0fe,omar.quill@contoso.com,Omar Quill,Sales,Sales Manager,Singapore,Singapore,Contoso Ltd,Singapore,riley.whitlock@contoso.com
+a881bfd3-d47d-477b-ba5a-91ca059dd55d,mei.keane3@contoso.com,Mei Keane,Facilities,Workplace Manager,New York,United States,Contoso Ltd,United States,nadia.whitlock@contoso.com
+f93e08d5-bea2-4dfe-873f-6e1baf908e3c,elliot.duval@contoso.com,Elliot Duval,Marketing,Campaign Manager,London,United Kingdom,Contoso Ltd,United Kingdom,priya.rutherford@contoso.com
+cc8218da-c696-45e6-8944-051be726be23,nadia.espinosa@contoso.com,Nadia Espinosa,Facilities,Facilities Coordinator,Sydney,Australia,Contoso Ltd,Australia,hiro.prescott@contoso.com
+ad81f8bd-4029-43ec-9ef2-b93e30ac7d7b,taylor.vance@contoso.com,Taylor Vance,Facilities,Facilities Coordinator,Seattle,United States,Contoso Ltd,United States,hiro.carver@contoso.com
+5d678bb1-945e-42e4-888a-93ec70d9c9f8,quinn.barros@contoso.com,Quinn Barros,Finance,Accounts Payable Clerk,London,United Kingdom,Contoso Ltd,United Kingdom,casey.yates@contoso.com
+21d53971-3367-49b5-acf6-bf756a5e6920,rowan.ziegler@contoso.com,Rowan Ziegler,Finance,Controller,New York,United States,Contoso Ltd,United States,elliot.ingram@contoso.com
+f1b64afe-d31e-4f1a-a9ff-1cae41c8ca8c,nadia.grady@contoso.com,Nadia Grady,Engineering,Site Reliability Engineer,New York,United States,Contoso Ltd,United States,priya.whitlock@contoso.com
+2408a6dc-1346-41a9-b680-2cdb77e490c7,luca.ellery@contoso.com,Luca Ellery,Marketing,Campaign Manager,Seattle,United States,Contoso Ltd,United States,marlow.quill@contoso.com
+895ccd99-43b3-4eb4-8390-2c5d6502d6a2,jordan.barros@contoso.com,Jordan Barros,Legal,Legal Counsel,Seattle,United States,Contoso Ltd,United States,rowan.grady@contoso.com
+618ae305-95a5-4afa-831d-029fac1e86d8,arun.ziegler2@contoso.com,Arun Ziegler,Customer Service,Team Lead,Seattle,United States,Contoso Ltd,United States,riley.barros@contoso.com
+e25d36eb-9e9a-4f83-8668-03ee78b2b549,arun.ingram2@contoso.com,Arun Ingram,Operations,Operations Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,skyler.mercer@contoso.com
+e8cda0cc-76da-4ca0-92e8-2f38a2a9d4d8,priya.delgado@contoso.com,Priya Delgado,Operations,Operations Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,hiro.grady@contoso.com
+4dead645-0986-4beb-b23e-323d0b9bd934,riley.fairbanks@contoso.com,Riley Fairbanks,Marketing,Content Strategist,Singapore,Singapore,Contoso Ltd,Singapore,reese.vance3@contoso.com
+7421ff46-637e-4b01-a2ba-e10e899ca782,taylor.espinosa2@contoso.com,Taylor Espinosa,Finance,Controller,Manchester,United Kingdom,Contoso Ltd,United Kingdom,skyler.keane3@contoso.com
+6a35df59-e2aa-4a5d-a78e-d00dba0266ef,elliot.ziegler@contoso.com,Elliot Ziegler,Engineering,Software Engineer,Singapore,Singapore,Contoso Ltd,Singapore,hiro.ingram@contoso.com
+71818dcf-379e-4c6e-9edb-0d3cb0b63bcf,avery.carver@contoso.com,Avery Carver,Customer Service,Escalations Specialist,Singapore,Singapore,Contoso Ltd,Singapore,finley.barros3@contoso.com
+fa53e34d-e6d5-401d-8b62-1d415e09a9ee,riley.whitlock@contoso.com,Riley Whitlock,Sales,Sales Manager,Seattle,United States,Contoso Ltd,United States,rowan.lockhart@contoso.com
+d918b3e5-f2f2-4eef-9f45-dbfdf7dc67e0,avery.hollis@contoso.com,Avery Hollis,Human Resources,HR Manager,Singapore,Singapore,Contoso Ltd,Singapore,reese.prescott4@contoso.com
+0cf2b69b-0577-4ea9-b899-924698de8ebb,priya.vance@contoso.com,Priya Vance,Finance,Controller,Amsterdam,Netherlands,Contoso Ltd,Netherlands,morgan.whitlock@contoso.com
+c3e15a85-d46e-4104-9190-6f5034885a46,luca.thorne2@contoso.com,Luca Thorne,Sales,Sales Development Rep,Dublin,Ireland,Contoso Ltd,Ireland,alex.mercer3@contoso.com
+25c61c45-c63d-44ee-941c-7a863ba5cd2f,nadia.duval@contoso.com,Nadia Duval,Facilities,Facilities Coordinator,Amsterdam,Netherlands,Contoso Ltd,Netherlands,sawyer.ziegler2@contoso.com
+1c24220e-2cab-47e7-8c6b-66e5402adf9c,morgan.sinclair@contoso.com,Morgan Sinclair,Marketing,Marketing Analyst,Dublin,Ireland,Contoso Ltd,Ireland,hiro.oakley@contoso.com
+96bf10ab-3ce9-45e7-89d6-a63bca3c6f5f,alex.mercer2@contoso.com,Alex Mercer,Human Resources,Talent Coordinator,Dublin,Ireland,Contoso Ltd,Ireland,jordan.ingram@contoso.com
+86ad8a8c-6bc4-423e-bde1-3c1b20733f6d,avery.carver2@contoso.com,Avery Carver,Human Resources,HR Advisor,Dublin,Ireland,Contoso Ltd,Ireland,marlow.keane@contoso.com
+1beaf6ac-97fa-4f04-8363-90075cae9610,finley.amara@contoso.com,Finley Amara,Finance,Finance Manager,Sydney,Australia,Contoso Ltd,Australia,quinn.ingram@contoso.com
+ddf275eb-e8a3-4341-8881-9065ba2c98ce,marlow.carver@contoso.com,Marlow Carver,Engineering,Engineering Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,riley.amara@contoso.com
+afa415e5-6d20-4496-a6d0-6371d8e88ebb,sam.quill@contoso.com,Sam Quill,Customer Service,Support Advisor,London,United Kingdom,Contoso Ltd,United Kingdom,avery.carver@contoso.com
+25f934bf-9bb9-4155-9275-eb9414aeaf5c,jordan.espinosa@contoso.com,Jordan Espinosa,Customer Service,Support Advisor,Sydney,Australia,Contoso Ltd,Australia,rowan.underwood@contoso.com
+533f5a72-b64f-454a-8c61-165495da75c1,marlow.vance@contoso.com,Marlow Vance,Information Technology,Service Desk Analyst,New York,United States,Contoso Ltd,United States,jamie.fontaine2@contoso.com
+cb08587d-1963-426d-ae21-8b099afd4015,finley.rutherford@contoso.com,Finley Rutherford,Facilities,Facilities Coordinator,New York,United States,Contoso Ltd,United States,arun.ellery@contoso.com
+56c438e4-69ef-4fb1-ba7e-8e14e359eee1,emerson.prescott2@contoso.com,Emerson Prescott,Engineering,Site Reliability Engineer,Amsterdam,Netherlands,Contoso Ltd,Netherlands,harper.hollis@contoso.com
+aa448259-5001-4b7b-ad40-67f450032b35,hiro.ellery@contoso.com,Hiro Ellery,Legal,Contracts Analyst,Singapore,Singapore,Contoso Ltd,Singapore,jordan.prescott@contoso.com
+d4ef00aa-175a-41ec-912f-a61279699ed2,arun.fontaine@contoso.com,Arun Fontaine,Operations,Operations Analyst,Dublin,Ireland,Contoso Ltd,Ireland,sam.whitlock@contoso.com
+214f3f12-cfd0-4cbd-9f65-c8cebd21bc11,riley.ziegler@contoso.com,Riley Ziegler,Finance,Financial Analyst,Singapore,Singapore,Contoso Ltd,Singapore,morgan.ingram@contoso.com
+aa53c19c-dfa4-4b9f-9a85-6750692ac139,arun.ellery@contoso.com,Arun Ellery,Facilities,Workplace Manager,Seattle,United States,Contoso Ltd,United States,reese.prescott3@contoso.com
+81e5c9f6-93f2-47cc-9a85-910d5a057c11,marlow.keane@contoso.com,Marlow Keane,Human Resources,People Partner,New York,United States,Contoso Ltd,United States,reese.prescott4@contoso.com
+8e676a01-d86a-4460-99a1-120e1bb43332,taylor.duval@contoso.com,Taylor Duval,Information Technology,IT Manager,Sydney,Australia,Contoso Ltd,Australia,luca.underwood@contoso.com
+8f9b72ae-d85c-46bd-adda-4f8dcea60f4c,elliot.ingram@contoso.com,Elliot Ingram,Finance,Financial Analyst,New York,United States,Contoso Ltd,United States,priya.vance@contoso.com
+4f199ec0-c32d-4526-b3e4-110a45f50c52,alex.grady@contoso.com,Alex Grady,Facilities,Workplace Manager,New York,United States,Contoso Ltd,United States,ines.chandra@contoso.com
+6699cd99-a847-4ce7-90fa-6b5724ac2130,casey.duval@contoso.com,Casey Duval,Operations,Operations Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,arun.ingram@contoso.com
+6b7a2460-604e-46cb-b712-f2d187cdb6a1,jordan.ziegler@contoso.com,Jordan Ziegler,Information Technology,Service Desk Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,reese.delgado@contoso.com
+f10013a7-c6de-42f0-930a-c1c7b8ba8368,skyler.keane2@contoso.com,Skyler Keane,Operations,Operations Manager,Dublin,Ireland,Contoso Ltd,Ireland,reese.vance@contoso.com
+9e2aa4ac-c122-45b3-a84c-03d227d415b6,sofia.carver@contoso.com,Sofia Carver,Facilities,Facilities Coordinator,Manchester,United Kingdom,Contoso Ltd,United Kingdom,harper.fontaine@contoso.com
+7129cec7-9b69-454d-bc54-535f6c8c3b6a,finley.whitlock2@contoso.com,Finley Whitlock,Finance,Finance Manager,New York,United States,Contoso Ltd,United States,reese.prescott2@contoso.com
+1c6345ab-6e0e-41e8-985d-3f861d2324e6,ines.rutherford@contoso.com,Ines Rutherford,Marketing,Content Strategist,Amsterdam,Netherlands,Contoso Ltd,Netherlands,reese.fontaine@contoso.com
+652ffb49-3873-457f-8ba0-78e84ef492c1,reese.whitlock@contoso.com,Reese Whitlock,Facilities,Facilities Coordinator,Sydney,Australia,Contoso Ltd,Australia,arun.chandra@contoso.com
+4169b9fc-c3a0-4c6f-a321-d1e1c47104c0,quinn.hollis@contoso.com,Quinn Hollis,Human Resources,Talent Coordinator,Amsterdam,Netherlands,Contoso Ltd,Netherlands,reese.prescott4@contoso.com
+2112507c-2cfa-45b0-ae3f-683abf3c5140,alex.quill@contoso.com,Alex Quill,Operations,Logistics Coordinator,Manchester,United Kingdom,Contoso Ltd,United Kingdom,omar.sinclair@contoso.com
+5aaab32f-ce63-42b6-ab05-347fd556b37d,reese.sinclair@contoso.com,Reese Sinclair,Engineering,Software Engineer,Amsterdam,Netherlands,Contoso Ltd,Netherlands,quinn.jarvis@contoso.com
+dcb33df3-13ee-4dc6-abd1-4d2c75b27455,emerson.bennett@contoso.com,Emerson Bennett,Legal,Contracts Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,taylor.hollis@contoso.com
+4a1dab32-6aed-4dc7-a3e0-5309b5a1b949,elliot.novak@contoso.com,Elliot Novak,Facilities,Facilities Coordinator,Singapore,Singapore,Contoso Ltd,Singapore,elliot.hollis@contoso.com
+75c8e90d-9e3d-450d-b296-d9f0cd2372c2,rowan.grady@contoso.com,Rowan Grady,Legal,Compliance Officer,London,United Kingdom,Contoso Ltd,United Kingdom,tomas.fontaine2@contoso.com
+96c044d0-6f88-4f28-be49-fd091b19d8b8,emerson.duval@contoso.com,Emerson Duval,Operations,Logistics Coordinator,Manchester,United Kingdom,Contoso Ltd,United Kingdom,arun.ingram2@contoso.com
+38b8f24e-56ea-47b3-beed-10b64f6e274b,harper.duval@contoso.com,Harper Duval,Engineering,Engineering Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,taylor.duval2@contoso.com
+31a3ac4d-828c-47e7-87d5-b7be1d30d990,reese.vance2@contoso.com,Reese Vance,Information Technology,IT Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,dakota.duval2@contoso.com
+2c6a6e9a-3280-47a1-8187-222b257d5e52,taylor.ellery@contoso.com,Taylor Ellery,Operations,Operations Manager,Dublin,Ireland,Contoso Ltd,Ireland,sam.jarvis@contoso.com
+c1235c91-76c5-40dc-be7e-7419a0c14035,casey.amara@contoso.com,Casey Amara,Information Technology,Service Desk Analyst,Manchester,United Kingdom,Contoso Ltd,United Kingdom,rowan.ingram2@contoso.com
+117b355b-7094-4bdb-a6a5-24e350ee7a92,omar.vance@contoso.com,Omar Vance,Facilities,Workplace Manager,Seattle,United States,Contoso Ltd,United States,mei.ingram@contoso.com
+81e0d489-5a18-42a3-8e61-4bcd97674900,luca.jarvis@contoso.com,Luca Jarvis,Customer Service,Support Advisor,New York,United States,Contoso Ltd,United States,jordan.espinosa@contoso.com
+497de16d-d4ea-420a-9e65-96540e9058b6,finley.carver@contoso.com,Finley Carver,Marketing,Campaign Manager,Sydney,Australia,Contoso Ltd,Australia,sam.sinclair@contoso.com
+bd29ede9-cab4-423b-b448-83858de7ad6c,finley.thorne@contoso.com,Finley Thorne,Finance,Financial Analyst,Singapore,Singapore,Contoso Ltd,Singapore,casey.yates@contoso.com
+f52d4af2-269e-44c9-8059-9b9379c2d2e4,rowan.underwood@contoso.com,Rowan Underwood,Customer Service,Support Advisor,Amsterdam,Netherlands,Contoso Ltd,Netherlands,finley.whitlock@contoso.com
+b6dd6257-fb7d-4f1c-97eb-89b1d65e59dd,luca.espinosa@contoso.com,Luca Espinosa,Customer Service,Support Advisor,Manchester,United Kingdom,Contoso Ltd,United Kingdom,skyler.sinclair@contoso.com
+707df251-fdb1-429e-b010-ed13b526b22d,sam.ingram@contoso.com,Sam Ingram,Engineering,QA Engineer,Dublin,Ireland,Contoso Ltd,Ireland,elliot.ziegler@contoso.com
+569f3ab3-c643-4300-a8a5-1c68632dbb5e,tomas.keane@contoso.com,Tomas Keane,Operations,Operations Manager,Seattle,United States,Contoso Ltd,United States,skyler.keane2@contoso.com
+54669d19-10df-4974-95ab-946da5b5cdc2,luca.vance@contoso.com,Luca Vance,Facilities,Facilities Coordinator,London,United Kingdom,Contoso Ltd,United Kingdom,emerson.whitlock@contoso.com
+f6e39356-a814-4562-9a00-3f16b9469bcf,quinn.jarvis@contoso.com,Quinn Jarvis,Engineering,QA Engineer,Singapore,Singapore,Contoso Ltd,Singapore,elliot.ziegler@contoso.com
+4f6b58c8-598d-4aec-aaaf-e5432434a678,elliot.whitlock@contoso.com,Elliot Whitlock,Operations,Operations Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,riley.prescott@contoso.com
+8f158449-4f40-422f-95b0-2530f020e992,marlow.yates@contoso.com,Marlow Yates,Legal,Contracts Analyst,Dublin,Ireland,Contoso Ltd,Ireland,omar.prescott@contoso.com
+ff4625af-bd20-463b-b275-b5f3d436a7a8,arun.yates@contoso.com,Arun Yates,Operations,Operations Manager,Dublin,Ireland,Contoso Ltd,Ireland,arun.ingram@contoso.com
+04aac1b7-5ca0-4428-822c-4d326c645c15,priya.whitlock@contoso.com,Priya Whitlock,Engineering,Engineering Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,emerson.prescott2@contoso.com
+31274148-7c7c-404e-8422-d03ef29a6339,jamie.lockhart@contoso.com,Jamie Lockhart,Marketing,Campaign Manager,Dublin,Ireland,Contoso Ltd,Ireland,elliot.ingram2@contoso.com
+81f7f3fb-19e4-4c6a-89c2-3e69d82c7565,jordan.keane@contoso.com,Jordan Keane,Information Technology,Support Engineer,Dublin,Ireland,Contoso Ltd,Ireland,sawyer.quill@contoso.com
+d4d30795-2e4b-4bc4-a989-0880277d1be9,marlow.novak@contoso.com,Marlow Novak,Operations,Operations Manager,Dublin,Ireland,Contoso Ltd,Ireland,marlow.novak2@contoso.com
+ad261ec5-5d42-49e9-a92e-07b60b2f6d5c,hiro.prescott@contoso.com,Hiro Prescott,Facilities,Facilities Coordinator,Dublin,Ireland,Contoso Ltd,Ireland,ines.lockhart2@contoso.com
+88b4f474-3be7-4df4-b2ec-f16ec8a723e9,ines.ziegler@contoso.com,Ines Ziegler,Customer Service,Support Advisor,New York,United States,Contoso Ltd,United States,omar.hollis@contoso.com
+f2771f63-ada5-4417-9e2a-d32d31ab0b56,sofia.chandra@contoso.com,Sofia Chandra,Marketing,Marketing Analyst,Sydney,Australia,Contoso Ltd,Australia,casey.lockhart@contoso.com
+87079ad4-80be-4e35-a1c2-645ac7332304,ines.keane@contoso.com,Ines Keane,Customer Service,Escalations Specialist,Sydney,Australia,Contoso Ltd,Australia,skyler.sinclair@contoso.com
+0d5ba7cd-4000-45f0-9f7d-0dd7236e1608,luca.underwood@contoso.com,Luca Underwood,Information Technology,Service Desk Analyst,Amsterdam,Netherlands,Contoso Ltd,Netherlands,riley.espinosa2@contoso.com
+48f9e3d0-1fea-41e0-99e6-04b38412a335,mei.duval@contoso.com,Mei Duval,Operations,Operations Analyst,Manchester,United Kingdom,Contoso Ltd,United Kingdom,reese.vance@contoso.com
+6ffe33b3-d4bf-4a4b-a5b8-a42f836b15c7,finley.espinosa@contoso.com,Finley Espinosa,Information Technology,Support Engineer,New York,United States,Contoso Ltd,United States,hiro.sinclair@contoso.com
+0da23e5c-6a36-4f18-86d3-db93ee33688d,sofia.mercer@contoso.com,Sofia Mercer,Sales,Solution Specialist,Sydney,Australia,Contoso Ltd,Australia,taylor.jarvis@contoso.com
+397b5f51-5ffa-46ef-94e4-180cfe9936a3,taylor.novak@contoso.com,Taylor Novak,Engineering,Software Engineer,Seattle,United States,Contoso Ltd,United States,priya.whitlock@contoso.com
+25637cc3-ca97-4bf5-95d5-96afa663d2cd,nadia.yates@contoso.com,Nadia Yates,Operations,Operations Analyst,Manchester,United Kingdom,Contoso Ltd,United Kingdom,riley.espinosa3@contoso.com
+2387eaf6-d4c3-4832-b231-c60b78f2ce6b,tomas.chandra@contoso.com,Tomas Chandra,Human Resources,HR Manager,New York,United States,Contoso Ltd,United States,marlow.oakley@contoso.com
+d5c0244d-3735-462d-8184-3b0304dd7054,sofia.delgado@contoso.com,Sofia Delgado,Customer Service,Support Advisor,London,United Kingdom,Contoso Ltd,United Kingdom,riley.barros@contoso.com
+1f317405-4d18-4eba-bcd5-fd7f49c10669,riley.amara@contoso.com,Riley Amara,Engineering,Software Engineer,Singapore,Singapore,Contoso Ltd,Singapore,tomas.novak2@contoso.com
+1c612ec2-1014-4131-b505-65f59f708368,priya.barros@contoso.com,Priya Barros,Sales,Solution Specialist,Singapore,Singapore,Contoso Ltd,Singapore,arun.delgado@contoso.com
+24c173b9-b7f2-4572-bdef-a84993364f7e,priya.rutherford2@contoso.com,Priya Rutherford,Facilities,Workplace Manager,London,United Kingdom,Contoso Ltd,United Kingdom,ines.chandra@contoso.com
+2ff3cde4-6aa4-4c9f-9217-04753d959e3f,marlow.mercer@contoso.com,Marlow Mercer,Legal,Compliance Officer,London,United Kingdom,Contoso Ltd,United Kingdom,ines.sinclair@contoso.com
+fd034ada-c952-4185-81e0-3a5e8b48f496,jordan.rutherford2@contoso.com,Jordan Rutherford,Finance,Financial Analyst,Seattle,United States,Contoso Ltd,United States,hiro.jarvis@contoso.com
+40ef3935-5f90-4ed6-bb25-664d630aa767,sam.vance@contoso.com,Sam Vance,Legal,Compliance Officer,Sydney,Australia,Contoso Ltd,Australia,avery.fairbanks@contoso.com
+a837fe68-bba2-45ca-bdba-6da85844f9fc,luca.delgado@contoso.com,Luca Delgado,Human Resources,HR Advisor,Seattle,United States,Contoso Ltd,United States,elliot.sinclair@contoso.com
+d0421dfa-56ab-487a-8bc7-8e815a304528,morgan.carver@contoso.com,Morgan Carver,Facilities,Facilities Coordinator,Seattle,United States,Contoso Ltd,United States,sofia.carver@contoso.com
+b74eba93-1027-4b53-a285-b2efcfbe4fe9,priya.grady@contoso.com,Priya Grady,Customer Service,Escalations Specialist,Sydney,Australia,Contoso Ltd,Australia,mei.keane@contoso.com
+0aba590e-e2c3-48aa-b310-7475ca862225,jamie.carver@contoso.com,Jamie Carver,Human Resources,Talent Coordinator,New York,United States,Contoso Ltd,United States,reese.prescott4@contoso.com
+c0d7ac73-095f-4a81-80d9-2bce7930ba20,nadia.sinclair@contoso.com,Nadia Sinclair,Marketing,Marketing Analyst,Singapore,Singapore,Contoso Ltd,Singapore,casey.lockhart@contoso.com
+a7de02cc-dda4-44a7-8c3c-e284c7e53bbb,skyler.duval@contoso.com,Skyler Duval,Sales,Sales Manager,New York,United States,Contoso Ltd,United States,luca.thorne2@contoso.com
+be4969ec-6667-43bb-a3b5-63606fdc0bad,luca.mercer@contoso.com,Luca Mercer,Marketing,Content Strategist,Manchester,United Kingdom,Contoso Ltd,United Kingdom,luca.thorne@contoso.com
+ec9f9c54-5e0a-42ab-bf5d-b163b12b6680,casey.quill@contoso.com,Casey Quill,Legal,Compliance Officer,Seattle,United States,Contoso Ltd,United States,avery.carver3@contoso.com
+febec0db-9a3a-4103-ae3c-453214348f62,hiro.oakley@contoso.com,Hiro Oakley,Marketing,Campaign Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,alex.lockhart@contoso.com
+4baf0f5e-a932-4094-93f2-8f11147f6570,rowan.ellery2@contoso.com,Rowan Ellery,Engineering,Engineering Manager,New York,United States,Contoso Ltd,United States,tomas.novak2@contoso.com
+0ad7c9a2-7277-46ec-99fe-fbbc71a3fad2,casey.yates2@contoso.com,Casey Yates,Customer Service,Team Lead,Singapore,Singapore,Contoso Ltd,Singapore,ines.keane@contoso.com
+0eaf04b5-f2a9-4c8a-8a9e-4a62fae3114b,avery.vance@contoso.com,Avery Vance,Operations,Operations Analyst,Singapore,Singapore,Contoso Ltd,Singapore,hiro.grady@contoso.com
+f3ea0184-28f4-43ce-aded-da80bff9507d,reese.barros@contoso.com,Reese Barros,Legal,Legal Counsel,Seattle,United States,Contoso Ltd,United States,harper.ingram@contoso.com
+a52964ff-c74c-4890-bc6a-3174113634a5,sam.fairbanks@contoso.com,Sam Fairbanks,Information Technology,IT Manager,Sydney,Australia,Contoso Ltd,Australia,sawyer.yates@contoso.com
+732e2016-add7-42c9-a747-b93c9ae77eab,elliot.carver@contoso.com,Elliot Carver,Operations,Logistics Coordinator,Singapore,Singapore,Contoso Ltd,Singapore,tomas.keane@contoso.com
+5df06e8c-878a-4ed9-a33f-fc8292ec89af,ines.delgado@contoso.com,Ines Delgado,Operations,Logistics Coordinator,Sydney,Australia,Contoso Ltd,Australia,marlow.novak@contoso.com
+7fc15858-2fa0-4842-bc55-300b06a241af,taylor.ellery2@contoso.com,Taylor Ellery,Operations,Operations Manager,New York,United States,Contoso Ltd,United States,taylor.ellery@contoso.com
+36ee1640-723e-4466-b43b-d27f42a259a6,avery.amara@contoso.com,Avery Amara,Legal,Compliance Officer,Manchester,United Kingdom,Contoso Ltd,United Kingdom,sofia.amara@contoso.com
+73b911d8-12f5-431a-9a52-d2ee22bf18f5,jamie.ellery2@contoso.com,Jamie Ellery,Marketing,Campaign Manager,Sydney,Australia,Contoso Ltd,Australia,nadia.sinclair@contoso.com
+51d08109-fc90-4838-9874-1408f7b217c7,luca.whitlock@contoso.com,Luca Whitlock,Customer Service,Team Lead,Manchester,United Kingdom,Contoso Ltd,United Kingdom,emerson.chandra@contoso.com
+d9f2dd0d-4cc9-45f2-a42e-50374a552ea0,sawyer.sinclair@contoso.com,Sawyer Sinclair,Operations,Operations Analyst,Manchester,United Kingdom,Contoso Ltd,United Kingdom,harper.lockhart@contoso.com
+cac4d0eb-3373-430e-bc31-a5971f119c0f,reese.ingram@contoso.com,Reese Ingram,Information Technology,Systems Administrator,Seattle,United States,Contoso Ltd,United States,sam.keane@contoso.com
+77a7e8b7-5e70-465f-9280-c5aa8dd4595b,alex.mercer3@contoso.com,Alex Mercer,Sales,Sales Development Rep,Sydney,Australia,Contoso Ltd,Australia,finley.barros@contoso.com
+b807d78a-b788-45d1-bfe5-75f665edcfe3,jordan.keane2@contoso.com,Jordan Keane,Facilities,Workplace Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,alex.delgado@contoso.com
+20156a72-12e1-43a6-932c-ae01d2c65ee4,ines.oakley@contoso.com,Ines Oakley,Engineering,Engineering Manager,Singapore,Singapore,Contoso Ltd,Singapore,rowan.ellery2@contoso.com
+e0c1ff1e-20da-4972-9832-1ee48471b4b0,finley.whitlock3@contoso.com,Finley Whitlock,Finance,Accounts Payable Clerk,Sydney,Australia,Contoso Ltd,Australia,avery.ingram@contoso.com
+1fc905f8-d4d6-4735-8e2f-8958de431e06,reese.fontaine2@contoso.com,Reese Fontaine,Information Technology,Systems Administrator,Singapore,Singapore,Contoso Ltd,Singapore,hiro.sinclair@contoso.com
+5894f7f1-39b8-4bb2-b596-ca7cef4afa88,casey.lockhart@contoso.com,Casey Lockhart,Marketing,Marketing Analyst,Dublin,Ireland,Contoso Ltd,Ireland,tomas.delgado@contoso.com
+46426c45-8d03-417a-b4d3-75c1a29319fa,avery.hollis2@contoso.com,Avery Hollis,Marketing,Campaign Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,morgan.delgado@contoso.com
+94a53fde-f10d-47c8-9780-c2152b2bb8e9,reese.vance3@contoso.com,Reese Vance,Marketing,Campaign Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,sam.sinclair@contoso.com
+dd20c3bf-d342-4f08-8a8b-b5b490494583,nadia.fontaine@contoso.com,Nadia Fontaine,Information Technology,Support Engineer,Seattle,United States,Contoso Ltd,United States,casey.amara@contoso.com
+35f789bc-a6b0-4458-83c0-7d4393a74792,priya.amara@contoso.com,Priya Amara,Finance,Finance Manager,London,United Kingdom,Contoso Ltd,United Kingdom,finley.amara@contoso.com
+a4540937-4a27-4bf2-8baa-f744a08dd21b,dakota.espinosa@contoso.com,Dakota Espinosa,Facilities,Workplace Manager,London,United Kingdom,Contoso Ltd,United Kingdom,quinn.lockhart@contoso.com
+741b77f5-4c24-4053-a7f5-ae02af5b8f47,luca.barros@contoso.com,Luca Barros,Customer Service,Support Advisor,Amsterdam,Netherlands,Contoso Ltd,Netherlands,priya.chandra@contoso.com
+5716dc2e-343a-4a2a-b6e5-ae787bf7e1d3,finley.oakley2@contoso.com,Finley Oakley,Human Resources,People Partner,Dublin,Ireland,Contoso Ltd,Ireland,morgan.yates@contoso.com
+2179e3f0-6612-4ab4-b9b2-1e6e586a346a,hiro.duval@contoso.com,Hiro Duval,Operations,Logistics Coordinator,Seattle,United States,Contoso Ltd,United States,mei.quill@contoso.com
+7318b96d-4479-4612-9f5d-988f776abf09,rowan.ingram@contoso.com,Rowan Ingram,Engineering,QA Engineer,Manchester,United Kingdom,Contoso Ltd,United Kingdom,reese.sinclair@contoso.com
+9d896047-dd39-4793-a257-a4a2f204be89,sam.keane@contoso.com,Sam Keane,Information Technology,Service Desk Analyst,Manchester,United Kingdom,Contoso Ltd,United Kingdom,reese.ingram@contoso.com
+500e15c0-b89b-4f7f-93e3-4c35ef0a573d,nadia.lockhart@contoso.com,Nadia Lockhart,Sales,Sales Development Rep,Dublin,Ireland,Contoso Ltd,Ireland,riley.whitlock@contoso.com
+7f53a88e-4efc-4248-a10b-1a477faeb748,reese.prescott@contoso.com,Reese Prescott,Information Technology,Support Engineer,Sydney,Australia,Contoso Ltd,Australia,casey.amara@contoso.com
+95560a2d-3713-4466-bda0-6476f778c676,reese.prescott2@contoso.com,Reese Prescott,Finance,Controller,Singapore,Singapore,Contoso Ltd,Singapore,quinn.ingram@contoso.com
+a77d95f1-d7c4-4e9c-a1e0-fffc98f6fd7f,quinn.quill@contoso.com,Quinn Quill,Human Resources,HR Manager,London,United Kingdom,Contoso Ltd,United Kingdom,avery.fontaine@contoso.com
+43b47ee5-e1e8-4e7e-a249-8f666e51484d,omar.ellery2@contoso.com,Omar Ellery,Marketing,Marketing Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,jamie.oakley@contoso.com
+8fd33afc-91fd-4a4f-8d18-ab95668c8477,skyler.carver@contoso.com,Skyler Carver,Operations,Operations Analyst,Singapore,Singapore,Contoso Ltd,Singapore,sam.jarvis@contoso.com
+8cc36f3b-c3af-4cfe-b34a-6ca38116e3fc,jordan.novak@contoso.com,Jordan Novak,Operations,Logistics Coordinator,New York,United States,Contoso Ltd,United States,dakota.duval@contoso.com
+fc9e1dcb-cb7e-4268-9f89-ed1264d6dfbf,morgan.ellery@contoso.com,Morgan Ellery,Facilities,Workplace Manager,Manchester,United Kingdom,Contoso Ltd,United Kingdom,taylor.ziegler@contoso.com
+66c14dca-8255-4a61-9a3b-031932f57510,ines.fairbanks@contoso.com,Ines Fairbanks,Engineering,Software Engineer,Seattle,United States,Contoso Ltd,United States,nadia.duval2@contoso.com
+84f2fd0f-7947-4bfa-8dd0-b4d4554227de,morgan.yates@contoso.com,Morgan Yates,Human Resources,HR Manager,London,United Kingdom,Contoso Ltd,United Kingdom,alex.mercer2@contoso.com
+6498abe9-2999-4bef-918b-2f219cf20859,rowan.fontaine@contoso.com,Rowan Fontaine,Information Technology,IT Manager,Dublin,Ireland,Contoso Ltd,Ireland,taylor.duval@contoso.com
+b56ff8ce-7d66-471e-8847-6c56827c9f8c,reese.chandra@contoso.com,Reese Chandra,Facilities,Workplace Manager,Seattle,United States,Contoso Ltd,United States,priya.rutherford2@contoso.com
+6aa26216-fada-48f5-9c0f-0bdcac7e937c,skyler.lockhart@contoso.com,Skyler Lockhart,Customer Service,Team Lead,London,United Kingdom,Contoso Ltd,United Kingdom,luca.jarvis@contoso.com
+c86c6544-a7d4-4f50-b791-f1e543f9cd6b,marlow.quill@contoso.com,Marlow Quill,Marketing,Marketing Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,luca.thorne@contoso.com
+86341718-2ba6-4db3-bafe-b1149561c813,hiro.carver@contoso.com,Hiro Carver,Facilities,Workplace Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,nadia.espinosa@contoso.com
+30d73df7-1c22-4cea-b355-56a5f2bd92f2,sam.thorne2@contoso.com,Sam Thorne,Information Technology,Support Engineer,Amsterdam,Netherlands,Contoso Ltd,Netherlands,sam.grady@contoso.com
+690e7e62-3432-4ec6-b0c4-a01c69b7c0fa,emerson.fairbanks@contoso.com,Emerson Fairbanks,Customer Service,Team Lead,Seattle,United States,Contoso Ltd,United States,skyler.sinclair@contoso.com
+b4adaf89-0ff1-4a9f-ba37-0623bc5fd4dd,omar.duval@contoso.com,Omar Duval,Facilities,Facilities Coordinator,Sydney,Australia,Contoso Ltd,Australia,emerson.whitlock@contoso.com
+8685abaa-7a76-4555-a987-b218ff84faef,sawyer.lockhart@contoso.com,Sawyer Lockhart,Engineering,Site Reliability Engineer,Amsterdam,Netherlands,Contoso Ltd,Netherlands,finley.fontaine@contoso.com
+5ab28d4a-8bd8-4fcd-97a2-be4e887b03e5,finley.fontaine2@contoso.com,Finley Fontaine,Operations,Operations Manager,Dublin,Ireland,Contoso Ltd,Ireland,finley.vance@contoso.com
+3990e2c9-4c6a-40f4-8ede-c44d476cf68c,jamie.ingram@contoso.com,Jamie Ingram,Marketing,Content Strategist,Sydney,Australia,Contoso Ltd,Australia,alex.rutherford@contoso.com
+594b2a3a-7ad4-45a1-9129-950d7d2f4e58,mei.yates@contoso.com,Mei Yates,Marketing,Marketing Analyst,Amsterdam,Netherlands,Contoso Ltd,Netherlands,alex.rutherford@contoso.com
+e5508ea2-6133-434d-8b0e-8eb1ad371d9e,riley.thorne2@contoso.com,Riley Thorne,Marketing,Content Strategist,New York,United States,Contoso Ltd,United States,alex.rutherford@contoso.com
+143b45e3-b6d1-46bb-b48f-709c49a22441,quinn.carver@contoso.com,Quinn Carver,Operations,Logistics Coordinator,Dublin,Ireland,Contoso Ltd,Ireland,emerson.duval@contoso.com
+89e03e22-d3f4-449b-b3ba-ba8836c7d6fa,hiro.quill2@contoso.com,Hiro Quill,Customer Service,Escalations Specialist,New York,United States,Contoso Ltd,United States,finley.barros3@contoso.com
+3d4196fe-963a-4617-bdab-07e79d9d028e,morgan.ellery2@contoso.com,Morgan Ellery,Engineering,QA Engineer,New York,United States,Contoso Ltd,United States,sawyer.hollis@contoso.com
+548e1f6b-69ce-4e4e-99a6-92c90d700ea4,priya.ingram@contoso.com,Priya Ingram,Human Resources,HR Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,reese.prescott4@contoso.com
+682b163a-286e-4390-add9-7a1afa585b27,alex.sinclair@contoso.com,Alex Sinclair,Finance,Finance Manager,Dublin,Ireland,Contoso Ltd,Ireland,luca.duval@contoso.com
+0f25477d-a559-40e7-8910-fade52380bf2,ines.keane2@contoso.com,Ines Keane,Customer Service,Support Advisor,Amsterdam,Netherlands,Contoso Ltd,Netherlands,jordan.espinosa@contoso.com
+098c60b3-efc9-409e-99af-6e09b91e3d6e,sawyer.ziegler2@contoso.com,Sawyer Ziegler,Facilities,Facilities Coordinator,Amsterdam,Netherlands,Contoso Ltd,Netherlands,casey.grady@contoso.com
+65a16fa9-d611-49a1-bf46-a6bf094d916d,tomas.fontaine2@contoso.com,Tomas Fontaine,Legal,Contracts Analyst,Dublin,Ireland,Contoso Ltd,Ireland,quinn.oakley2@contoso.com
+9a4ffc0c-9165-42ed-8c63-6e95025f5543,sofia.carver2@contoso.com,Sofia Carver,Information Technology,Support Engineer,New York,United States,Contoso Ltd,United States,reese.ingram@contoso.com
+e3a68a70-7e71-4b55-8639-bd418b15bd94,finley.vance@contoso.com,Finley Vance,Operations,Operations Analyst,New York,United States,Contoso Ltd,United States,skyler.carver@contoso.com
+2999394c-54a7-469b-9cd6-6b09cf0e6d2b,avery.hollis3@contoso.com,Avery Hollis,Engineering,Site Reliability Engineer,Sydney,Australia,Contoso Ltd,Australia,sofia.grady@contoso.com
+915a1c30-4b86-45a1-8a6f-bff8564cfbd2,alex.ziegler@contoso.com,Alex Ziegler,Marketing,Marketing Analyst,Dublin,Ireland,Contoso Ltd,Ireland,luca.mercer@contoso.com
+d3b59af7-67ce-478f-a5a4-983ba383889a,marlow.duval@contoso.com,Marlow Duval,Sales,Solution Specialist,Dublin,Ireland,Contoso Ltd,Ireland,taylor.barros@contoso.com
+fb4fb88a-2f4d-4219-986b-2880ab545a15,jordan.novak2@contoso.com,Jordan Novak,Engineering,QA Engineer,Seattle,United States,Contoso Ltd,United States,priya.duval@contoso.com
+3c4b1eec-6231-4e73-82c2-d2eb01bf9e73,tomas.ingram@contoso.com,Tomas Ingram,Customer Service,Escalations Specialist,Seattle,United States,Contoso Ltd,United States,tomas.amara@contoso.com
+42f525b9-02ed-43ce-92a8-1713b90ed44b,quinn.thorne@contoso.com,Quinn Thorne,Marketing,Marketing Analyst,Seattle,United States,Contoso Ltd,United States,hiro.delgado@contoso.com
+28e333b6-4e8a-4c4b-b724-20411e43fbd2,sam.whitlock@contoso.com,Sam Whitlock,Operations,Logistics Coordinator,Amsterdam,Netherlands,Contoso Ltd,Netherlands,hiro.duval@contoso.com
+4b87959f-f0cd-4f05-aa87-855ea38295d3,mei.ellery@contoso.com,Mei Ellery,Engineering,Engineering Manager,New York,United States,Contoso Ltd,United States,marlow.carver@contoso.com
+bf6b8cdf-7479-4b61-a737-2b527a6a2107,taylor.fairbanks@contoso.com,Taylor Fairbanks,Facilities,Workplace Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,arun.chandra@contoso.com
+37e9d2e2-d35a-407a-aa02-17d0cd4f8b2b,ines.sinclair@contoso.com,Ines Sinclair,Legal,Legal Counsel,Sydney,Australia,Contoso Ltd,Australia,dakota.carver@contoso.com
+13fe8a29-5c9d-4ee0-b42a-045687365a84,reese.prescott3@contoso.com,Reese Prescott,Facilities,Facilities Coordinator,Manchester,United Kingdom,Contoso Ltd,United Kingdom,morgan.ellery@contoso.com
+dabf984e-53ff-4461-aa1f-1b61265cb9d9,elliot.sinclair@contoso.com,Elliot Sinclair,Human Resources,HR Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,quinn.quill@contoso.com
+82a7f586-e61d-4cde-9747-f3877d23d479,mei.thorne@contoso.com,Mei Thorne,Finance,Finance Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,arun.whitlock@contoso.com
+0ec7d662-905c-4bdd-b4f0-beae6a5943ce,morgan.rutherford@contoso.com,Morgan Rutherford,Human Resources,HR Manager,Sydney,Australia,Contoso Ltd,Australia,avery.fontaine@contoso.com
+37c86152-beed-4af9-80c5-9f30d1031424,harper.jarvis2@contoso.com,Harper Jarvis,Marketing,Marketing Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,jamie.ingram@contoso.com
+fe7ee362-8a89-40f0-9052-91d3b34c6c73,emerson.mercer@contoso.com,Emerson Mercer,Finance,Financial Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,hiro.jarvis@contoso.com
+22ab7752-c4db-4a62-ae13-418d68ab80ea,sam.keane2@contoso.com,Sam Keane,Finance,Finance Manager,Sydney,Australia,Contoso Ltd,Australia,riley.ziegler@contoso.com
+602a4e57-60a3-49d4-a821-e716eac80da1,finley.duval@contoso.com,Finley Duval,Operations,Operations Analyst,Singapore,Singapore,Contoso Ltd,Singapore,tomas.keane@contoso.com
+fe2b34d8-2db0-428d-9e5e-be5459077299,priya.duval@contoso.com,Priya Duval,Engineering,Site Reliability Engineer,Dublin,Ireland,Contoso Ltd,Ireland,morgan.hollis@contoso.com
+05d1fb63-c194-497f-80e3-a026d5b6de85,hiro.ingram@contoso.com,Hiro Ingram,Engineering,Engineering Manager,Dublin,Ireland,Contoso Ltd,Ireland,marlow.carver@contoso.com
+75eb89c2-3f5c-42f3-bacb-43a3d2c7bffb,sawyer.novak@contoso.com,Sawyer Novak,Customer Service,Escalations Specialist,Singapore,Singapore,Contoso Ltd,Singapore,omar.fontaine@contoso.com
+1ce362f8-c3f7-45fe-b99b-2b5ae00da49d,jamie.fontaine2@contoso.com,Jamie Fontaine,Information Technology,Support Engineer,New York,United States,Contoso Ltd,United States,reese.vance2@contoso.com
+08987462-980c-495c-99d4-5deb1139fa12,taylor.hollis@contoso.com,Taylor Hollis,Legal,Contracts Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,marlow.mercer@contoso.com
+3bfda8a6-705f-4df5-a6fa-dca00b531932,taylor.ziegler@contoso.com,Taylor Ziegler,Facilities,Facilities Coordinator,London,United Kingdom,Contoso Ltd,United Kingdom,omar.duval@contoso.com
+bb44badc-ea98-4ef8-90d7-5e373bf2025f,reese.keane@contoso.com,Reese Keane,Human Resources,Talent Coordinator,Dublin,Ireland,Contoso Ltd,Ireland,morgan.yates@contoso.com
+a903ae67-fc56-4b53-a4ac-b722e0527739,taylor.keane@contoso.com,Taylor Keane,Facilities,Facilities Coordinator,Seattle,United States,Contoso Ltd,United States,jordan.ingram2@contoso.com
+e134edfc-9777-4f10-b2d2-393f8e85140d,avery.carver3@contoso.com,Avery Carver,Legal,Compliance Officer,New York,United States,Contoso Ltd,United States,taylor.hollis@contoso.com
+f10bce9c-582b-41ee-b8e8-035b0c00988a,sawyer.quill2@contoso.com,Sawyer Quill,Information Technology,Service Desk Analyst,Singapore,Singapore,Contoso Ltd,Singapore,alex.quill2@contoso.com
+605fb1eb-4cc5-4e0d-a633-20186883ac6e,mei.oakley@contoso.com,Mei Oakley,Engineering,QA Engineer,Seattle,United States,Contoso Ltd,United States,sam.ellery@contoso.com
+b523c0de-db87-429c-8cfd-0fc139b02e2a,taylor.duval2@contoso.com,Taylor Duval,Engineering,QA Engineer,Sydney,Australia,Contoso Ltd,Australia,morgan.mercer@contoso.com
+87ad8b26-8eaa-4841-aaa0-426df7c0d5f7,sawyer.oakley2@contoso.com,Sawyer Oakley,Customer Service,Support Advisor,London,United Kingdom,Contoso Ltd,United Kingdom,jamie.ellery@contoso.com
+ec170298-143d-45b3-a58e-83dd548c1d84,avery.hollis4@contoso.com,Avery Hollis,Legal,Contracts Analyst,Amsterdam,Netherlands,Contoso Ltd,Netherlands,alex.yates@contoso.com
+44b9e602-0d31-412e-b0c3-6756d453f867,sawyer.ziegler3@contoso.com,Sawyer Ziegler,Operations,Logistics Coordinator,Manchester,United Kingdom,Contoso Ltd,United Kingdom,riley.espinosa3@contoso.com
+966be275-c2fe-4954-8dfd-9531302b7831,omar.delgado@contoso.com,Omar Delgado,Facilities,Facilities Coordinator,London,United Kingdom,Contoso Ltd,United Kingdom,elliot.hollis@contoso.com
+e8b3d763-f4ff-4f3a-8d9d-baeb553d2625,omar.fontaine@contoso.com,Omar Fontaine,Customer Service,Support Advisor,Amsterdam,Netherlands,Contoso Ltd,Netherlands,arun.ziegler2@contoso.com
+7a9a8ef5-c11b-41c4-bfe3-f366bf337a15,hiro.ellery2@contoso.com,Hiro Ellery,Sales,Sales Development Rep,Amsterdam,Netherlands,Contoso Ltd,Netherlands,taylor.jarvis@contoso.com
+c68813fe-5255-4c75-8d55-119e3d44cb2c,harper.fontaine@contoso.com,Harper Fontaine,Facilities,Workplace Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,harper.novak@contoso.com
+5c11ab6d-42f5-43f5-8ef4-c34d5bf86f3c,sawyer.vance@contoso.com,Sawyer Vance,Legal,Compliance Officer,Sydney,Australia,Contoso Ltd,Australia,casey.ziegler@contoso.com
+c2fa1da8-7830-4631-b8f0-188efb37afae,riley.barros@contoso.com,Riley Barros,Customer Service,Escalations Specialist,Sydney,Australia,Contoso Ltd,Australia,sofia.delgado@contoso.com
+38a56b49-dd34-4a18-9001-9ed40bb401e7,rowan.oakley@contoso.com,Rowan Oakley,Sales,Sales Development Rep,Seattle,United States,Contoso Ltd,United States,arun.delgado@contoso.com
+6ae66582-b852-43cd-9442-b5e695831d58,sawyer.fontaine@contoso.com,Sawyer Fontaine,Human Resources,Talent Coordinator,New York,United States,Contoso Ltd,United States,skyler.mercer2@contoso.com
+3ee82983-d557-4241-91dd-b9bf613d2de9,rowan.ingram2@contoso.com,Rowan Ingram,Information Technology,Service Desk Analyst,Amsterdam,Netherlands,Contoso Ltd,Netherlands,reese.fontaine2@contoso.com
+b93b17fb-f76d-45fd-bd16-45a0d253d966,avery.amara2@contoso.com,Avery Amara,Engineering,Site Reliability Engineer,Seattle,United States,Contoso Ltd,United States,taylor.duval2@contoso.com
+b86677aa-23d4-426b-ab54-ff7a5a2837b2,hiro.barros@contoso.com,Hiro Barros,Customer Service,Team Lead,Dublin,Ireland,Contoso Ltd,Ireland,hiro.quill2@contoso.com
+f50d7a37-a44d-4fec-bd85-d7fa8ac97b01,tomas.espinosa@contoso.com,Tomas Espinosa,Customer Service,Support Advisor,Dublin,Ireland,Contoso Ltd,Ireland,priya.grady@contoso.com
+ab102c9b-d168-4e09-b1f7-d90413075157,nadia.duval2@contoso.com,Nadia Duval,Engineering,Software Engineer,London,United Kingdom,Contoso Ltd,United Kingdom,harper.duval@contoso.com
+b509109b-1166-48ce-bb3f-3800a175a9c3,morgan.chandra@contoso.com,Morgan Chandra,Human Resources,People Partner,Singapore,Singapore,Contoso Ltd,Singapore,priya.ingram@contoso.com
+a3422e50-9e2a-4324-8f79-a8a75f8a14bd,reese.prescott4@contoso.com,Reese Prescott,Human Resources,HR Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,alex.mercer2@contoso.com
+04482a22-0308-4a5e-a94d-7b008d388327,alex.sinclair2@contoso.com,Alex Sinclair,Customer Service,Team Lead,London,United Kingdom,Contoso Ltd,United Kingdom,finley.whitlock@contoso.com
+6e3a0ba8-ac8d-4c7d-b2a6-e468d02b1243,alex.rutherford@contoso.com,Alex Rutherford,Marketing,Campaign Manager,New York,United States,Contoso Ltd,United States,elliot.ingram2@contoso.com
+86c5d1d6-9ea9-4508-b122-75923db02235,reese.fairbanks@contoso.com,Reese Fairbanks,Finance,Controller,Manchester,United Kingdom,Contoso Ltd,United Kingdom,sam.keane2@contoso.com
+67f1698c-f594-4a54-9f80-4eeb143a9aff,luca.novak@contoso.com,Luca Novak,Operations,Logistics Coordinator,New York,United States,Contoso Ltd,United States,finley.fontaine2@contoso.com
+d90dd19b-d3fb-4043-af1d-5a1a4ccb2355,mei.ingram@contoso.com,Mei Ingram,Facilities,Facilities Coordinator,Amsterdam,Netherlands,Contoso Ltd,Netherlands,taylor.keane@contoso.com
+0e5d8c6a-79db-4862-8d7d-d772608e2f5c,harper.novak2@contoso.com,Harper Novak,Human Resources,HR Advisor,Manchester,United Kingdom,Contoso Ltd,United Kingdom,marlow.oakley@contoso.com
+54ce26be-c8cc-42c2-a518-a4186f14b3f6,dakota.duval2@contoso.com,Dakota Duval,Information Technology,Support Engineer,Manchester,United Kingdom,Contoso Ltd,United Kingdom,sam.grady@contoso.com
+e336c243-b139-4476-9e3c-e88be6b9d31a,taylor.hollis2@contoso.com,Taylor Hollis,Engineering,Site Reliability Engineer,London,United Kingdom,Contoso Ltd,United Kingdom,jamie.fontaine@contoso.com
+e63949d4-47c6-4688-acf3-2053af36b8cc,tomas.delgado@contoso.com,Tomas Delgado,Marketing,Marketing Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,morgan.sinclair@contoso.com
+f622d842-0402-4b3c-9082-11a5d9b59f84,casey.fontaine@contoso.com,Casey Fontaine,Facilities,Facilities Coordinator,London,United Kingdom,Contoso Ltd,United Kingdom,emerson.whitlock@contoso.com
+edcabf94-65f6-4a53-9226-a8b3b674410d,ines.chandra@contoso.com,Ines Chandra,Facilities,Facilities Coordinator,Dublin,Ireland,Contoso Ltd,Ireland,reese.chandra@contoso.com
+639fc471-d975-4f00-95ab-a8ae9112fbc0,elliot.ingram2@contoso.com,Elliot Ingram,Marketing,Marketing Analyst,Dublin,Ireland,Contoso Ltd,Ireland,ines.amara2@contoso.com
+fd0ce433-ca5e-451b-a3d3-cd4cbd5ff093,harper.amara@contoso.com,Harper Amara,Engineering,Software Engineer,Seattle,United States,Contoso Ltd,United States,sawyer.carver@contoso.com
+1375ee90-d6b3-41e4-bb6d-ca0d6fe5040b,sam.ellery@contoso.com,Sam Ellery,Engineering,Engineering Manager,Seattle,United States,Contoso Ltd,United States,avery.espinosa@contoso.com
+c8969c5b-45f8-428d-a255-e1bb07958c1f,ines.lockhart@contoso.com,Ines Lockhart,Facilities,Workplace Manager,Singapore,Singapore,Contoso Ltd,Singapore,omar.duval@contoso.com
+2f8c83e5-6e8d-4644-a01b-fbcbf0eebcce,skyler.sinclair@contoso.com,Skyler Sinclair,Customer Service,Team Lead,Amsterdam,Netherlands,Contoso Ltd,Netherlands,luca.jarvis@contoso.com
+3f175534-cc4d-4819-8b9d-fd589e5d9c7a,jordan.amara@contoso.com,Jordan Amara,Facilities,Facilities Coordinator,Singapore,Singapore,Contoso Ltd,Singapore,luca.vance@contoso.com
+277eb0aa-a247-441d-88ad-0899b630794d,morgan.novak@contoso.com,Morgan Novak,Finance,Finance Manager,New York,United States,Contoso Ltd,United States,elliot.sinclair2@contoso.com
+71da35b9-4eea-4db8-b165-d77901547950,riley.delgado@contoso.com,Riley Delgado,Operations,Logistics Coordinator,Seattle,United States,Contoso Ltd,United States,luca.novak@contoso.com
+8e969227-72e7-4b51-ae54-ac6d2ff8e87e,morgan.delgado@contoso.com,Morgan Delgado,Marketing,Marketing Analyst,Manchester,United Kingdom,Contoso Ltd,United Kingdom,elliot.ingram2@contoso.com
+17d30f32-8de1-496c-9a9a-206a16f142a2,riley.bennett@contoso.com,Riley Bennett,Engineering,Engineering Manager,Singapore,Singapore,Contoso Ltd,Singapore,hiro.ingram@contoso.com
+b98f5dbe-15ae-4e0f-8777-a07f6346d4ef,quinn.oakley2@contoso.com,Quinn Oakley,Legal,Compliance Officer,London,United Kingdom,Contoso Ltd,United Kingdom,harper.yates@contoso.com
+4d16f049-44d7-4f9a-a38b-05b72b64777c,arun.novak@contoso.com,Arun Novak,Sales,Sales Manager,Dublin,Ireland,Contoso Ltd,Ireland,taylor.barros@contoso.com
+4cbc9044-6bcd-4ce7-86a5-6fe86f46f1b1,jordan.grady@contoso.com,Jordan Grady,Customer Service,Escalations Specialist,Dublin,Ireland,Contoso Ltd,Ireland,finley.barros3@contoso.com
+9803b22e-7eec-488d-a002-352ab88cddde,avery.ingram@contoso.com,Avery Ingram,Finance,Accounts Payable Clerk,Seattle,United States,Contoso Ltd,United States,jordan.rutherford2@contoso.com
+550c2fe9-654c-41d9-b2e6-182801bb819c,morgan.keane@contoso.com,Morgan Keane,Customer Service,Team Lead,Manchester,United Kingdom,Contoso Ltd,United Kingdom,harper.prescott@contoso.com
+dc08bf29-d2d3-4488-90c3-00186e3cdd4f,finley.lockhart@contoso.com,Finley Lockhart,Legal,Compliance Officer,Seattle,United States,Contoso Ltd,United States,dakota.carver@contoso.com
+336b00cb-b1fe-4d13-b280-df1d9a6c0db9,quinn.lockhart@contoso.com,Quinn Lockhart,Facilities,Workplace Manager,Dublin,Ireland,Contoso Ltd,Ireland,dakota.bennett@contoso.com
+a205e54f-b1e8-409d-bc20-b9f24a9c589e,harper.lockhart@contoso.com,Harper Lockhart,Operations,Logistics Coordinator,Dublin,Ireland,Contoso Ltd,Ireland,casey.duval@contoso.com
+64976593-c92e-4c93-9105-c8d647c1c017,rowan.novak@contoso.com,Rowan Novak,Facilities,Workplace Manager,Amsterdam,Netherlands,Contoso Ltd,Netherlands,emerson.whitlock@contoso.com
+8cd34c62-c482-4b71-ae84-b81c2e0fb5b3,elliot.sinclair2@contoso.com,Elliot Sinclair,Finance,Financial Analyst,Amsterdam,Netherlands,Contoso Ltd,Netherlands,jordan.rutherford2@contoso.com
+11b461e9-b15d-472d-94ce-e27c4a94ae9f,finley.barros3@contoso.com,Finley Barros,Customer Service,Escalations Specialist,Amsterdam,Netherlands,Contoso Ltd,Netherlands,mei.keane@contoso.com
+2775ee42-a89e-42f2-80af-bf3f3df51967,priya.keane@contoso.com,Priya Keane,Customer Service,Team Lead,Dublin,Ireland,Contoso Ltd,Ireland,luca.barros@contoso.com
+950df1a0-7aaf-4001-9912-316afd9e8e20,jordan.prescott@contoso.com,Jordan Prescott,Legal,Contracts Analyst,Singapore,Singapore,Contoso Ltd,Singapore,casey.ziegler@contoso.com
+b39e4df2-5c0a-4feb-b7ea-e66eca6caf9b,sawyer.carver@contoso.com,Sawyer Carver,Engineering,Software Engineer,Singapore,Singapore,Contoso Ltd,Singapore,sawyer.oakley@contoso.com
+9cd8758b-a5a1-4825-aa95-28c35ae1dbad,arun.whitlock@contoso.com,Arun Whitlock,Finance,Financial Analyst,Amsterdam,Netherlands,Contoso Ltd,Netherlands,luca.duval@contoso.com
+1b1f2eb1-6e32-45a8-8bd5-cc86f73936e9,ines.lockhart2@contoso.com,Ines Lockhart,Facilities,Facilities Coordinator,Singapore,Singapore,Contoso Ltd,Singapore,quinn.lockhart@contoso.com
+949cd8d4-8ed8-480d-84cf-ee39bf31c29f,taylor.rutherford@contoso.com,Taylor Rutherford,Finance,Accounts Payable Clerk,New York,United States,Contoso Ltd,United States,luca.duval@contoso.com
+b0c07fcc-96ad-44df-adf7-5924c5b8386b,harper.prescott@contoso.com,Harper Prescott,Customer Service,Team Lead,Seattle,United States,Contoso Ltd,United States,avery.whitlock@contoso.com
+eba900e1-6a7d-4d96-8ba1-72331ac3bf31,alex.quill2@contoso.com,Alex Quill,Information Technology,Support Engineer,Seattle,United States,Contoso Ltd,United States,quinn.rutherford@contoso.com
+34f541c0-c8c5-4b2a-b490-adeb57d337d3,skyler.keane3@contoso.com,Skyler Keane,Finance,Finance Manager,Dublin,Ireland,Contoso Ltd,Ireland,skyler.keane@contoso.com
+51a40d2a-73d3-4457-b25f-13dfb8d49848,riley.prescott@contoso.com,Riley Prescott,Operations,Operations Analyst,Sydney,Australia,Contoso Ltd,Australia,skyler.mercer@contoso.com
+57d3f4dd-d963-4c72-85c8-234b1d763a66,luca.yates@contoso.com,Luca Yates,Marketing,Marketing Analyst,London,United Kingdom,Contoso Ltd,United Kingdom,luca.thorne@contoso.com
+8d49fe3f-2ca8-4783-8418-2d353e711433,tomas.ziegler@contoso.com,Tomas Ziegler,Finance,Accounts Payable Clerk,Dublin,Ireland,Contoso Ltd,Ireland,hiro.jarvis@contoso.com
+2f383b43-a137-48e4-a7b1-3040cc39b925,finley.ingram@contoso.com,Finley Ingram,Operations,Operations Analyst,Singapore,Singapore,Contoso Ltd,Singapore,omar.sinclair@contoso.com
+7317591a-3283-4aa4-a212-ab7c9d361cb6,alex.ziegler2@contoso.com,Alex Ziegler,Legal,Compliance Officer,Singapore,Singapore,Contoso Ltd,Singapore,avery.carver3@contoso.com
+c0986750-4741-4b48-b4ae-4abd36fce0ac,alex.yates@contoso.com,Alex Yates,Legal,Compliance Officer,Singapore,Singapore,Contoso Ltd,Singapore,marlow.yates@contoso.com
+5373bf4d-5da4-4cb9-afdc-999289718eea,luca.duval@contoso.com,Luca Duval,Finance,Accounts Payable Clerk,Manchester,United Kingdom,Contoso Ltd,United Kingdom,emerson.mercer@contoso.com
+f7464c02-8718-44c1-bd4e-d26edcd5bfae,avery.whitlock@contoso.com,Avery Whitlock,Customer Service,Team Lead,Manchester,United Kingdom,Contoso Ltd,United Kingdom,ines.keane2@contoso.com
+5a1baf0e-5911-46dc-9d3e-503a9645f0e4,marlow.novak2@contoso.com,Marlow Novak,Operations,Logistics Coordinator,Singapore,Singapore,Contoso Ltd,Singapore,skyler.keane2@contoso.com
+eb2ec80e-4c25-4823-8cf4-ffb0b4bba73f,nadia.whitlock@contoso.com,Nadia Whitlock,Facilities,Facilities Coordinator,Dublin,Ireland,Contoso Ltd,Ireland,finley.yates@contoso.com

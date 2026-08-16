@@ -36,23 +36,11 @@ expression EmptyTable = (columns as list) as table => #table(columns, {})
 
 	annotation PBI_ResultType = Function
 
-/// Toggle (optional): load the Dataverse agent tables. False => they load empty.
-expression Enable_Dataverse = "Include"
-	lineageTag: 1a2b3c4d-fab1-4005-8005-000000000005
-
-	annotation PBI_ResultType = Text
-
-/// Toggle (optional): load the Product Feedback (OCV) table user_feedback.
-expression Enable_ProductFeedback = "Exclude"
-	lineageTag: 1a2b3c4d-fab1-4006-8006-000000000006
-
-	annotation PBI_ResultType = Text
-
 /// SOURCE MODE— where the agent/transcript tables come from.
 /// "Fabric"        => read the pre-parsed Delta tables from the Lakehouse (original behaviour).
 /// "Dataverse"     => pull conversationtranscripts straight from Dataverse and parse in Power Query.
 /// "TranscriptCSV" => parse a local conversationtranscripts.csv (same JSON content schema as Dataverse) —
-/// used to validate the parser offline / on exported data. Credit + Agents 365 stay CSV.
+/// used to validate the parser offline / on exported data. Credit stays CSV.
 expression 'Source Mode' = "Dataverse"
 	lineageTag: 1a2b3c4d-dv01-4101-8101-000000000101
 
@@ -123,16 +111,6 @@ expression 'Transcript CSV Path' = ""
 /// the Entra-Graph-API → SharePoint landing flow) — the model just reads the resulting file.
 expression 'Org Data CSV' = "" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
 	lineageTag: 1a2b3c4d-dv01-4115-8115-000000000115
-
-	annotation PBI_NavigationStepName = Navigation
-
-	annotation PBI_ResultType = Text
-
-/// Agents 365 CSV — full file path to agents_365.csv (OPTIONAL). Same SharePoint-URL-or-local rules as
-/// Org Data CSV. LEAVE BLANK to skip the Agents 365 table entirely (it loads empty). Source: M365 Admin
-/// → Agents → Export.
-expression 'Agent 365 CSV' = "" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=false]
-	lineageTag: 1a2b3c4d-dv01-4116-8116-000000000116
 
 	annotation PBI_NavigationStepName = Navigation
 
