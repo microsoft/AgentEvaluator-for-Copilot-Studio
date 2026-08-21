@@ -5,7 +5,7 @@ The **simplest** Agent Evaluator build: the Power BI template reads Copilot Stud
 no Lakehouse, no notebooks — just the `.pbit`, a Dataverse environment, and an org-data CSV.
 
 > Want scheduled Spark ingestion, larger volumes, or the **PPAC message-credit** pages? Use
-> [**Path 2 — Fabric**](../2.%20Fabric/) instead.
+> [**Path 2 — Fabric**](../fabric/) instead.
 
 ```
 Dataverse conversationtranscripts ─(native connector)─┐
@@ -17,7 +17,7 @@ Dataverse conversationtranscripts ─(native connector)─┐
    + org data ─(direct CSV file path)─────────────────────────► dashboard
 ```
 
-> **Just want to run it?** Open **[`Agent Evaluator - Dataverse.pbit`](./Agent%20Evaluator%20-%20Dataverse.pbit)**
+> **Just want to run it?** Open **[`Agent Evaluator.pbit`](./Agent%20Evaluator%20-%20Dataverse.pbit)**
 > in Power BI Desktop, set the two parameters below, and **Load**.
 
 ---
@@ -28,7 +28,7 @@ The `.pbit` is **pre-set to Dataverse** — you only set two parameters:
 
 | Parameter | Required? | Value |
 |---|---|---|
-| **Dataverse Url** | **Yes** | your environment URL, e.g. `https://yourorg.crm.dynamics.com` — or **several** separated by `;` to combine environments (see below) |
+| **Dataverse Url** | **Yes** | your environment URL, e.g. `https://yourorg.crm.dynamics.com` — one environment per report ([several? use Fabric](./fabric.md)) |
 | **CSV Folder Path** | **Yes** | folder containing `copilot_org_data.csv` (a local/synced/UNC folder, or a SharePoint document library URL) |
 
 > **A folder, not a file path.** The template resolves each CSV it needs by name
@@ -47,7 +47,7 @@ level to **Organizational** if prompted. Then enable **Scheduled refresh** in th
 
 The template also reads transcripts straight from a CSV — no Dataverse, no Fabric, no
 customer data. There is a **dedicated, pre-configured build** for this: see
-**[`../3. Local CSV/`](../3.%20Local%20CSV)**, which ships with a ready-made synthetic
+**[`../data/`](../data)**, which ships with a ready-made synthetic
 dataset (2,400 conversations, 8 agents, 90 days).
 
 You can also switch *this* template over by hand:
@@ -59,44 +59,38 @@ You can also switch *this* template over by hand:
 | **Dataverse Url** | leave blank — unused |
 
 <details>
-<summary><strong>Multiple environments in one report</strong> — combine several Dataverse orgs</summary>
+<summary><strong>More than one environment?</strong> — use the Fabric path</summary>
 
-The **Dataverse Url** parameter accepts **more than one environment URL**, separated by a **semicolon**
-(or one per line):
+**This path reads one environment per report.** The **Dataverse Url** parameter takes a single
+environment URL — it is not a list, and a semicolon-separated string will fail with
+*"The given URL neither points to an OData service or a feed"*.
 
+For several environments, use **[the Fabric path](./fabric.md)**. The parser notebook accepts a
+list of environments, reads them all in one run, and lands the result in a Lakehouse:
+
+```python
+# ONE environment:   set DATAVERSE_URL and leave DATAVERSE_URLS = [].
+# MANY environments: set DATAVERSE_URLS to a list (DATAVERSE_URL is then ignored).
+DATAVERSE_URLS = [
+    "https://org-a.crm.dynamics.com",
+    "https://org-b.crm.dynamics.com",
+]
 ```
-https://org-a.crm.dynamics.com; https://org-b.crm.dynamics.com; https://org-c.crm.dynamics.com
-```
 
-The model pulls `conversationtranscripts` from **every** environment in a single refresh, tags each row
-with the source **`environment`**, and unions them — so all agents across all environments appear in
-one report. A single URL still works exactly as before.
+Fabric is the better answer for a second reason. Dataverse keeps conversation transcripts for
+about **30 days**, so a report reading Dataverse directly only ever sees the last month. The
+Fabric notebook writes each run into the Lakehouse, so history **accumulates past the retention
+window** — run it on a schedule and the report keeps everything it has ever collected, across
+every environment you list.
 
-**Robust by design:** each environment is fetched independently inside a `try…otherwise`, so an
-unreachable or empty environment is **skipped**, not fatal — the refresh still completes with the
-environments that did respond.
-
-**What you need to do:**
-
-1. **List the environment URLs** in the **Dataverse Url** parameter, semicolon-separated (Power Platform
-   Admin Center → Environments → *each env* → **Environment URL**).
-2. **Read access in every environment.** The refresher's org login needs **Read** on the **Conversation
-   Transcript** table in **each** environment (same role as the single-env case — e.g. System
-   Customizer / Environment Maker — granted per environment).
-3. **Sign in per environment on first refresh.** Each environment URL is a **separate data source**, so
-   Power BI prompts once per environment — choose **Organizational account** and set privacy to
-   **Organizational** for each. In the Service, **Scheduled refresh** needs credentials configured for
-   **every** environment URL under dataset **Settings → Data source credentials**.
-4. **Keep privacy levels consistent** (all **Organizational**) across the environment sources and the
-   CSV folder, or Power Query's *Formula.Firewall* may block combining them.
-5. **Refresh.** All environments load into one model; the `environment` tag is available on the base
-   transcript data for filtering.
-
-> **Optional — surface an Environment slicer.** Row-level `environment` is carried on the parsed base
-> data. To slice a specific fact table (e.g. *Agent Sessions*) by environment, add `environment` to that
-> table's `Table.SelectColumns(...)` output in the parser function, then drop a slicer on the column.
+| | Dataverse direct | Fabric |
+|---|---|---|
+| Environments | one per report | many, in one run |
+| History | last ~30 days only | accumulates indefinitely |
+| Setup | open the `.pbit` | notebooks + Lakehouse |
 
 </details>
+
 
 ---
 
@@ -177,6 +171,6 @@ the environment simply has no Copilot Studio transcripts in scope yet.
 
 > **Credit / message-credit consumption** is **not** in this path — it's scoped to Copilot Studio
 > transcript analytics (transcripts + org data). For **PPAC Copilot Studio
-> message-credit** pages, use [**Path 2 — Fabric**](../2.%20Fabric/).
+> message-credit** pages, use [**Path 2 — Fabric**](../fabric/).
 
 ⬅ Back to the [Agent Evaluator overview](../README.md).

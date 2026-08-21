@@ -4,12 +4,12 @@
 
 #### by Microsoft Business Value Advisory (BVA)
 
-### **for Copilot Studio** — a Power BI template for **deep agent performance & evaluation**: quality, containment, topics, transcripts, errors, feedback, and message-credit consumption.
+### **for Copilot Studio** — one Power BI template for **deep agent performance & evaluation**: quality, containment, topics, transcripts, errors, feedback, and message-credit consumption.
 
-[![Built by Microsoft BVA](https://img.shields.io/badge/BUILT_BY-MICROSOFT_BVA-4F73B8?style=for-the-badge&labelColor=1C2632)](https://github.com/microsoft/StudioLens-for-Copilot-Studio)
-[![Power BI Template](https://img.shields.io/badge/POWER_BI-TEMPLATE-F2C811?style=for-the-badge&logo=powerbi&logoColor=1C2632&labelColor=1C2632)](#choose-your-path)
-[![Deploy](https://img.shields.io/badge/DEPLOY-DATAVERSE_OR_FABRIC-09B39D?style=for-the-badge&labelColor=1C2632)](#choose-your-path)
-[![Stars](https://img.shields.io/github/stars/microsoft/StudioLens-for-Copilot-Studio?style=for-the-badge&color=7F215D&labelColor=1C2632)](https://github.com/microsoft/StudioLens-for-Copilot-Studio/stargazers)
+[![Built by Microsoft BVA](https://img.shields.io/badge/BUILT_BY-MICROSOFT_BVA-4F73B8?style=for-the-badge&labelColor=1C2632)](https://github.com/microsoft/AgentEvaluator-for-Copilot-Studio)
+[![Power BI Template](https://img.shields.io/badge/POWER_BI-ONE_TEMPLATE-F2C811?style=for-the-badge&logo=powerbi&logoColor=1C2632&labelColor=1C2632)](#get-started)
+[![Deploy](https://img.shields.io/badge/DEPLOY-CSV_·_DATAVERSE_·_FABRIC-09B39D?style=for-the-badge&labelColor=1C2632)](#pick-a-source)
+[![Stars](https://img.shields.io/github/stars/microsoft/AgentEvaluator-for-Copilot-Studio?style=for-the-badge&color=7F215D&labelColor=1C2632)](https://github.com/microsoft/AgentEvaluator-for-Copilot-Studio/stargazers)
 
 **Agent sessions · turns · errors · sub-agent calls · quality & performance · topics · knowledge files ·
 user feedback · Copilot Studio message-credit consumption** — purpose-built to analyse how your
@@ -21,9 +21,18 @@ user feedback · Copilot Studio message-credit consumption** — purpose-built t
 
 Found this useful? ⭐ **Star this repo to help others discover it!**
 
-**[Choose your path ↓](#choose-your-path)**
+**[Get started ↓](#get-started)**
 
 </div>
+
+## Watch first
+
+Plays here in the page — no download.
+
+**Demo — what the report covers, page by page** *(1m 53s)*
+
+https://github.com/user-attachments/assets/00ad15f4-9e53-439d-9b6f-1505265485b5
+
 
 <details>
 <summary>⚠️ <strong>Usage & compliance disclaimer</strong></summary>
@@ -42,37 +51,83 @@ support channels — please open an issue in this repo.
 
 ---
 
-## Choose your path
+## Get started
 
-Two builds of the **same Agent Evaluator** template. Each path folder is **self-contained** — the template,
-notebooks/resources, and step-by-step setup all live inside it. Pick the one that fits your platform:
+Download **[`Agent Evaluator.pbit`](./Agent%20Evaluator.pbit)**, open it in Power BI Desktop, and
+answer the first prompt.
 
-| Path | Best for | What you need | Go to |
+That prompt is **Source Mode**, and it is the only answer that matters — it decides which of the
+remaining parameters apply. Leave the rest at their defaults and the report builds itself from the
+sample data bundled in [`data/`](./data/).
+
+```
+Source Mode  =  TranscriptCSV   ->  reads data/ - no tenant, no capacity
+                Dataverse       ->  reads live transcripts, parsed in-model
+                Fabric          ->  reads Delta tables written by the notebooks
+```
+
+**New here?** Take `TranscriptCSV` with the bundled sample data. The whole dashboard renders in
+about two minutes, on a laptop, with nothing to stand up.
+
+---
+
+## Pick a source
+
+One template, three ways to feed it. Every page works on every path except the credit-consumption
+pages, which need the PPAC export that only the Fabric path ingests.
+
+| | Local CSV | Dataverse | Fabric |
 |---|---|---|---|
-| **3 · Local CSV** 🧪 | a **look before you commit** — the full dashboard on bundled demo data | nothing at all | **[`3. Local CSV/`](./3.%20Local%20CSV/)** |
-| **1 · Dataverse (Direct)** ⭐ | the **simplest** real footprint — transcripts parsed live **in the Power BI model** (Power Query M); nothing else to stand up | a Dataverse environment + an org-data CSV | **[`1. Dataverse (Direct)/`](./1.%20Dataverse%20(Direct)/)** |
-| **2 · Fabric** | **scheduled** Spark ingestion, larger volumes, and the **PPAC message-credit** pages | a Fabric capacity + Lakehouse | **[`2. Fabric/`](./2.%20Fabric/)** |
-
-All three surface the same Copilot Studio agent analytics — **Local CSV** reads a
-transcripts file straight from disk; **Dataverse (Direct)** reads live transcripts and
-parses them in-model; **Fabric** lands them (plus credit consumption) as Delta tables for
-scale and scheduling. New to Agent Evaluator? Start with
-**[`3. Local CSV/`](./3.%20Local%20CSV/)** — it runs the whole dashboard with **no tenant
-and no capacity**, in about two minutes.
-
-| | Local CSV | Dataverse (Direct) | Fabric |
-|---|---|---|---|
-| Setup effort | ✅ lowest (open `.pbit`, set 2 paths) | low (open `.pbit`, set 3 params) | notebooks + Lakehouse |
+| Set up | ✅ lowest — open, pick a folder | low — open, paste a URL | notebooks + Lakehouse |
 | Infrastructure | none | none | Fabric capacity + Lakehouse |
 | Tenant required | ✖ none | Dataverse environment | Fabric capacity |
-| Transcript pages (quality, topics, flow, errors, feedback) | ✅ | ✅ | ✅ |
-| PPAC message-credit pages | ✖ | ✖ | ✅ |
-| Live / refreshing data | ✖ (static file) | ✅ | ✅ (scheduled) |
-| Best data volume | demo / offline | small–medium (Dataverse ~30-day retention) | large / historical |
-| Multi-environment | ✖ | ✅ (one or many Dataverse URLs) | via Lakehouse |
+| Transcript pages | ✅ | ✅ | ✅ |
+| Message-credit pages | ✖ | ✖ | ✅ |
+| Refreshing data | ✖ static file | ✅ live | ✅ scheduled |
+| Best volume | demo / offline | small–medium (~30-day retention) | large / historical |
+| Multi-environment | ✖ | ✅ one or many URLs | via Lakehouse |
+| Guide | [local-csv.md](./docs/local-csv.md) | [dataverse.md](./docs/dataverse.md) | [fabric.md](./docs/fabric.md) |
+
+---
+
+## What you get
+
+Nine pages, in the order you would actually ask the questions.
+
+| Page | The question it answers |
+|---|---|
+| **Agent Evaluator** | Are the agents working, and what should I look at first? |
+| **Adoption & Reach** | Is anyone using this — and do they come back? |
+| **Performance** | Does it resolve what it is asked, and where does it break? |
+| **Grounding & Depth** | What did the agent draw upon to answer? |
+| **Topics & Themes** | What are people actually asking for — and can we answer it? |
+| **Transcript Explorer** | Show me a real conversation, the evidence behind the numbers. |
+| **Improvement Areas** | What should we fix first? |
+| **Credit Consumption** | What is it costing, and where does the spend go? |
+| **CSAT & Feedback** | Do users say it helped — and what do they say? |
+
+A **designed escalation is not a failure.** The report separates handoffs that are correct behaviour
+from errors and give-ups, so containment is not quietly overstated.
+
+---
+
+## Repository layout
+
+```
+Agent Evaluator.pbit     the template - all three paths
+data/                    sample transcripts + org data (used by TranscriptCSV)
+docs/                    per-path setup guides
+fabric/notebooks/        transcript parser + credit-consumption ingester
+fabric/flows/            Power Automate flows for the PPAC credit export
+tools/                   sample-data generator and validator
+media/                   demo video
+```
 
 ---
 
 ## About
 
 Agent Evaluator is created and maintained by the **Microsoft Business Value Advisory (BVA)** team.
+
+Part of the [Analytics Hub](https://microsoft.github.io/Analytics-Hub/) — open-source Power BI
+templates and exporters for measuring Microsoft Copilot adoption, impact, and cost.

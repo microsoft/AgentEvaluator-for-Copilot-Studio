@@ -6,13 +6,15 @@ name: parser-smoke-test
 on:
   push:
     paths:
-      - '2. Fabric/notebooks/**'
-      - '3. Local CSV/**'
+      - 'fabric/notebooks/**'
+      - 'data/**'
+      - 'tools/**'
       - '.github/workflows/parser-smoke-test.yml'
   pull_request:
     paths:
-      - '2. Fabric/notebooks/**'
-      - '3. Local CSV/**'
+      - 'fabric/notebooks/**'
+      - 'data/**'
+      - 'tools/**'
       - '.github/workflows/parser-smoke-test.yml'
 
 jobs:
@@ -30,13 +32,13 @@ jobs:
         run: python -m pip install --quiet pandas pyspark
 
       - name: Smoke test - bundled parser fixture
-        working-directory: '2. Fabric/notebooks/samples'
+        working-directory: 'fabric/notebooks/samples'
         run: python smoketest_files_mode.py
 
-      - name: Smoke test - Local CSV demo data
-        working-directory: '2. Fabric/notebooks/samples'
-        run: python smoketest_files_mode.py "../../../3. Local CSV/data/conversationtranscripts.csv"
+      - name: Smoke test - demo transcripts
+        working-directory: 'fabric/notebooks/samples'
+        run: python smoketest_files_mode.py "../../../data/conversationtranscripts.csv"
 
       - name: Validate demo data populates every dashboard column
-        working-directory: '3. Local CSV/tools'
+        working-directory: 'tools'
         run: python validate_sample_data.py
