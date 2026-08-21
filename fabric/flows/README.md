@@ -2,7 +2,7 @@
 
 > **Part of the *Fabric + Copilot Studio* build.** These flows land the **Power Platform Admin
 > Center (PPAC)** message-consumption export that feeds the Studio-exclusive **Credits Consumed**
-> page. The leaner *No Studio* template ([`2. Fabric/`](../../../2.%20Fabric/README.md)) does **not**
+> page. The leaner *No Studio* template ([abric/](../)) does **not**
 > use them. For the setup walkthrough see [`../CREDIT-CONSUMPTION-SETUP.md`](../CREDIT-CONSUMPTION-SETUP.md).
 
 These two Power Automate flows remove the **manual export → save** step for the Power Platform
@@ -80,4 +80,4 @@ the transcript-native `Total Cost Units` (displayedCost) view keeps working rega
 The same `PUT → append → flush` landing mechanism works for **any** export-only Microsoft report —
 only the **trigger filter** and **target folder** change. The *No Studio* template documents the
 generalised pattern (and the product-feedback example that ships in every build) in
-[`2. Fabric/flows/README.md`](../../../2.%20Fabric/flows/README.md#generalising-to-other-export-only-sources).
+[abric/flows/README.md](./README.md).

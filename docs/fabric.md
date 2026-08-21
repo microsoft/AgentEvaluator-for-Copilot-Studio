@@ -14,7 +14,7 @@ consumption** — not the broader M365 Copilot value dashboard.
 
 | Item | Purpose |
 |---|---|
-| `Agent Evaluator - Fabric.pbit` | The Power BI template — Copilot Studio pages (Quality & Performance, Conversation Flow & Quality, Topic Explorer, Knowledge Files, Error Analysis, User Feedback) **plus** the PPAC **Credit Consumption** page, and reference appendices. |
+| `Agent Evaluator.pbit` | The Power BI template — Copilot Studio pages (Quality & Performance, Conversation Flow & Quality, Topic Explorer, Knowledge Files, Error Analysis, User Feedback) **plus** the PPAC **Credit Consumption** page, and reference appendices. |
 | `notebooks/Copilot_Agent_Transcript_Parser.ipynb` | Parses **Copilot Studio agent transcripts** (Dataverse `ConversationTranscript`) into the agent Delta tables (sessions, turns, errors, sub-agents, catalogue, performance). |
 | `notebooks/Copilot_Credit_Consumption_Ingester.ipynb` | Ingests the **Power Platform Admin Center (PPAC)** per-agent Copilot Studio **message-credit** export into the `credit_consumption_*` tables (drives the Credit Consumption page). |
 
@@ -46,7 +46,7 @@ Import each into the workspace, attach + pin your Lakehouse, fill the `# === CON
 > "Unknown".
 
 ### 4. Connect the template
-Open **`Agent Evaluator - Fabric.pbit`** in Power BI Desktop, set the **Fabric SQL
+Open **`Agent Evaluator.pbit`** in Power BI Desktop, set the **Fabric SQL
 Endpoint** and **Lakehouse Name** parameters, and leave `Enable_Consumption = Include`
 if you ran the credit ingester (set it to `Exclude` to skip the Credit Consumption
 page). **Load**, then **Publish**.

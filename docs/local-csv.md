@@ -10,7 +10,7 @@ Bundled demo data is included, so this path works **out of the box** — open th
 ```
 Local CSV path
   data/conversationtranscripts.csv ─┐
-                                    ├─► Agent Evaluator - Local CSV.pbit ─► dashboard
+                                    ├─► Agent Evaluator.pbit ─► dashboard
   data/copilot_org_data.csv ────────┘        (parsed in-model, Power Query M)
 ```
 
@@ -21,7 +21,7 @@ Local CSV path
 
 ## Quickstart
 
-1. Open **[`Agent Evaluator - Local CSV.pbit`](./Agent%20Evaluator%20-%20Local%20CSV.pbit)**
+1. Open **[`Agent Evaluator.pbit`](./Agent%20Evaluator%20-%20Local%20CSV.pbit)**
    in Power BI Desktop.
 2. Set the folder parameter (the template is **pre-set** to `TranscriptCSV`
    mode, so `Source Mode` needs no change):
@@ -39,7 +39,7 @@ Local CSV path
 > `copilot_org_data.csv`. Keep the filenames as shipped.
 >
 > Point it at a folder, e.g.
-> `C:\repos\AgentEvaluator-for-Copilot-Studio\3. Local CSV\data`.
+> `C:\repos\AgentEvaluator-for-Copilot-Studio\data`.
 > A **SharePoint document library URL** (`https://…`) also works and refreshes
 > cloud-to-cloud; local folders need an on-premises gateway if you publish to
 > the Service.
@@ -109,7 +109,7 @@ cd tools
 python validate_sample_data.py
 ```
 
-Runs the **real** parser (`../../2. Fabric/notebooks/Copilot_Agent_Transcript_Parser.ipynb`)
+Runs the **real** parser (`../fabric/notebooks/Copilot_Agent_Transcript_Parser.ipynb`)
 over the generated CSV and reports row counts, per-column fill rates and
 distributions. Exits non-zero if any dashboard-facing column would come out
 empty. This runs in CI on every change.
@@ -135,7 +135,7 @@ data keeps working if the parser is later changed to honour the explicit trace.
 ## Known gaps in this path
 
 - **Credit Consumption** pages are empty by design — those tables are hardcoded
-  to empty outside the Fabric path. Use [`../2. Fabric/`](../2.%20Fabric) for
+  to empty outside the Fabric path. Use [`../fabric/`](../fabric) for
   PPAC message-credit reporting.
 - **Dataverse Diagnostic** is empty — it only populates in `Dataverse` mode.
 

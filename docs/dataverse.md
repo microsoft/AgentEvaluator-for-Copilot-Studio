@@ -5,7 +5,7 @@ The **simplest** Agent Evaluator build: the Power BI template reads Copilot Stud
 no Lakehouse, no notebooks — just the `.pbit`, a Dataverse environment, and an org-data CSV.
 
 > Want scheduled Spark ingestion, larger volumes, or the **PPAC message-credit** pages? Use
-> [**Path 2 — Fabric**](../2.%20Fabric/) instead.
+> [**Path 2 — Fabric**](../fabric/) instead.
 
 ```
 Dataverse conversationtranscripts ─(native connector)─┐
@@ -17,7 +17,7 @@ Dataverse conversationtranscripts ─(native connector)─┐
    + org data ─(direct CSV file path)─────────────────────────► dashboard
 ```
 
-> **Just want to run it?** Open **[`Agent Evaluator - Dataverse.pbit`](./Agent%20Evaluator%20-%20Dataverse.pbit)**
+> **Just want to run it?** Open **[`Agent Evaluator.pbit`](./Agent%20Evaluator%20-%20Dataverse.pbit)**
 > in Power BI Desktop, set the two parameters below, and **Load**.
 
 ---
@@ -47,7 +47,7 @@ level to **Organizational** if prompted. Then enable **Scheduled refresh** in th
 
 The template also reads transcripts straight from a CSV — no Dataverse, no Fabric, no
 customer data. There is a **dedicated, pre-configured build** for this: see
-**[`../3. Local CSV/`](../3.%20Local%20CSV)**, which ships with a ready-made synthetic
+**[`../data/`](../data)**, which ships with a ready-made synthetic
 dataset (2,400 conversations, 8 agents, 90 days).
 
 You can also switch *this* template over by hand:
@@ -177,6 +177,6 @@ the environment simply has no Copilot Studio transcripts in scope yet.
 
 > **Credit / message-credit consumption** is **not** in this path — it's scoped to Copilot Studio
 > transcript analytics (transcripts + org data). For **PPAC Copilot Studio
-> message-credit** pages, use [**Path 2 — Fabric**](../2.%20Fabric/).
+> message-credit** pages, use [**Path 2 — Fabric**](../fabric/).
 
 ⬅ Back to the [Agent Evaluator overview](../README.md).

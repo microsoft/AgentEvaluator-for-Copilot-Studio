@@ -16,7 +16,7 @@ from pathlib import Path
 
 NB_PATH = Path(__file__).resolve().parent.parent / "Copilot_Agent_Transcript_Parser.ipynb"
 # Default fixture; pass a path as argv[1] to smoke-test any other transcripts CSV
-# (e.g. the demo-scale file in "../../../3. Local CSV/data/conversationtranscripts.csv").
+# (e.g. the demo-scale file in "../../../data/conversationtranscripts.csv").
 SAMPLE = (Path(sys.argv[1]).resolve() if len(sys.argv) > 1
           else Path(__file__).resolve().parent / "copilot_transcripts" / "conversationtranscripts.csv")
 
