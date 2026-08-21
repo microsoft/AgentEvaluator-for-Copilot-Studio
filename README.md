@@ -31,10 +31,7 @@ Plays here in the page — no download.
 
 **Demo — what the report covers, page by page** *(1m 53s)*
 
-<!-- VIDEO: replace this line with the https://github.com/user-attachments/assets/<id> URL
-     produced by dragging media/AgentEvaluator-Demo.mp4 into a new issue comment.
-     A bare attachment URL on its own line renders as an inline player. -->
-https://github.com/microsoft/AgentEvaluator-for-Copilot-Studio/raw/main/media/AgentEvaluator-Demo.mp4
+https://github.com/user-attachments/assets/00ad15f4-9e53-439d-9b6f-1505265485b5
 
 
 <details>
