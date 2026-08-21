@@ -45,6 +45,35 @@ Import each into the workspace, attach + pin your Lakehouse, fill the `# === CON
 > Land it from an Entra `/users` export if you want org-level slicing; otherwise those breakdowns show
 > "Unknown".
 
+#### The org join key
+
+Org breakdowns join **`agent_sessions[user_id_hash]` → `copilot_org_data[id]`**, and both sides must
+hold the **AAD object ID**. Despite its legacy name, `user_id_hash` is *not* hashed — the parser
+returns `from.aadObjectId` unchanged precisely so this join works.
+
+So the export must include `id`:
+
+```
+id,userPrincipalName,displayName,department,jobTitle,officeLocation,country,companyName,usageLocation,managerUPN
+7b1f…-…-…,ada.lovelace@contoso.com,Ada Lovelace,Finance,Analyst,London,United Kingdom,Contoso,GB,manager@contoso.com
+```
+
+A Graph `/users` call returns `id` by default; some portal exports do not. If `id` is missing the
+template defaults it to the UPN so the model still loads — but a UPN can never match an object ID,
+so **every org breakdown silently returns blank**. Two quick checks:
+
+```sql
+-- both should be 36-character GUIDs, not UPNs
+SELECT TOP 5 id FROM copilot_org_data;
+SELECT TOP 5 user_id_hash FROM agent_sessions;
+```
+
+A genuine object ID is a UUIDv4: character 15 is `4` and character 20 is one of `8 9 a b`. If either
+side shows a UPN, or shows GUID-shaped values failing that test, the join will match zero rows.
+Values that fail the test came from an **older build of the parser that really did hash the ID** —
+that data cannot be recovered (hashing is one-way) and the parser must be re-run.
+
+
 ### 4. Connect the template
 Open **`Agent Evaluator.pbit`** in Power BI Desktop, set the **Fabric SQL
 Endpoint** and **Lakehouse Name** parameters, and leave `Enable_Consumption = Include`
