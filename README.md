@@ -15,8 +15,6 @@
 user feedback · Copilot Studio message-credit consumption** — purpose-built to analyse how your
 **Copilot Studio agents** actually perform, resolve, contain, and cost.
 
-https://github.com/microsoft/AgentEvaluator-for-Copilot-Studio/raw/main/media/AgentEvaluator-Demo.mp4
-
 ![Agent Evaluator for Copilot Studio — demo](./assets/agent-evaluator-demo.gif)
 
 > *Demo shown with anonymised sample data.*
@@ -26,6 +24,18 @@ Found this useful? ⭐ **Star this repo to help others discover it!**
 **[Get started ↓](#get-started)**
 
 </div>
+
+## Watch first
+
+Plays here in the page — no download.
+
+**Demo — what the report covers, page by page** *(1m 53s)*
+
+<!-- VIDEO: replace this line with the https://github.com/user-attachments/assets/<id> URL
+     produced by dragging media/AgentEvaluator-Demo.mp4 into a new issue comment.
+     A bare attachment URL on its own line renders as an inline player. -->
+https://github.com/microsoft/AgentEvaluator-for-Copilot-Studio/raw/main/media/AgentEvaluator-Demo.mp4
+
 
 <details>
 <summary>⚠️ <strong>Usage & compliance disclaimer</strong></summary>
