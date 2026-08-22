@@ -31,7 +31,7 @@ Plays here in the page — no download.
 
 **Demo — what the report covers, page by page** *(1m 53s)*
 
-https://github.com/user-attachments/assets/00ad15f4-9e53-439d-9b6f-1505265485b5
+https://github.com/user-attachments/assets/87da1b02-c1f2-47cf-9761-61d5bfd510d3
 
 
 <details>
