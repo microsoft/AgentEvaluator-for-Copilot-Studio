@@ -19,6 +19,10 @@ user feedback · Copilot Studio message-credit consumption** — purpose-built t
 
 > *Demo shown with anonymised sample data.*
 
+**Also see [Analytics Hub for Microsoft Copilot](https://github.com/microsoft/AnalyticsHub-Dashboard):**
+one installer sets up an app on Microsoft Fabric or Azure that shows Copilot and agent adoption,
+value, consumption and governance in one place. It includes Agent Evaluator as an optional add-on.
+
 Found this useful? ⭐ **Star this repo to help others discover it!**
 
 **[Get started ↓](#get-started)**
